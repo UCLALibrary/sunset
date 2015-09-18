@@ -31,11 +31,11 @@
                 <!-- we could also use type = entry or type=chapter-->
                 
                 <head>Downtown</head>
-                <byline>Primary Authors: Erin M. Coleman Janice L. Reiff</byline>
+                <byline>Primary Authors: Erin M. Coleman &amp; Janice L. Reiff</byline>
                 
                 <!-- Could we move the title/author info to the header and pull from there, letting the XSL do the formatting? This might help us ensure consistent formatting here and the metadata will be in the header without duplication. -Dawn -->
         
-                <p>For a profile of Downtown today, See the Los Angeles Times’ Mapping L.A. project at: http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/downtown/</p>
+                <p>For a profile of Downtown today, See the <title>Los Angeles Times</title>’ Mapping L.A. project at: http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/downtown/</p>
                 
                 <div type="bus_notes"><!-- If no Bus Notes, comment this section -->
                     <head>Bus Notes</head>
@@ -53,7 +53,7 @@
                     <head>Historical Overview</head>
                     <p>Los Angeles’ origins lie on the edges of what we now consider the city’s “downtown.” The first governor of California, Felipe de Neve, recruited settlers from the Mexican states of Sinaloa and Sonora to form and later found El Pueblo de la Reina de los Angeles in September of 1781. The first settlement developed along the Los Angeles River (<foreign>Rio Porcíuncula</foreign>), with some evidence that it may have been located a few blocks to the southeast of the modern-day El Pueblo Monument. The river itself shifted course several times, and the settlers had to relocate to higher grounds nearby. They understood the importance of access to water, especially with the sporadic rainfalls of Los Angeles, and immediately got to work constructing an irrigation system, with its major ditch known as the <foreign>Zanja Madre</foreign>. The settlers carved out agricultural plots to grow maize, wheat, beans, and later grapes and oranges. They, as the Spanish officials, relied on the paid labor of the Gabrieleño and Tongva population, who once dominated the Southland, to plow, sow, and harvest the crops along with expanding the irrigation system.
                         <figure>
-                            <graphic url="http://jpg3.lapl.org/pics34/00066847.jpg"/>
+                            <graphic url="http://uclalibrary.github.io/sunset/images/downtown_zanja.jpg"/>
                             <head>Washing clothes at the <foreign>Zanja Madre</foreign> [graphic]</head>
                             <p>"View of three women and two children washing clothes at the <foreign>Zanja Madre</foreign> (Mother Ditch). A few small buildings, visible throughout the image, appear to serve as barns. The <foreign>Zanja Madre</foreign> system ran from the Los Angeles River for more than a mile to the plaza, where the Olvera Street marketplace is now. Residents not only got their drinking water from the ditch, but the surrounding vineyards and farmland were also irrigated by its water."</p>
                             <ab type="attribution">Unknown, ca. 1900. Photo courtesy of the <ref type="url" target="http://photos.lapl.org/carlweb">Los Angeles Public Library Photo Collection</ref>.</ab>
@@ -65,7 +65,7 @@
                     
                     <p>One of the first things you will notice about Downtown Los Angeles is the 36-degree angle of its orientation as shown in Ord’s 1857 survey of the area below. While most American cities are designed with a clear grid of north-south and east-west routes, the heart of Los Angeles almost follows the 45 degree angled prescription that the Spanish Crown imposed on their colonies in the Americas and Philippines. According to Los Angeles historian D. J. Waldie, the deviation from the usual angle resulted from the path of the <foreign>Rio Porcíuncula</foreign> that was so critical to the city’s founding and early growth.  Many cartographers attempt to eliminate confusion by drawing maps of Downtown as if it had north –south and east-west streets, which serves to create more confusion oftentimes.
                         <figure>
-                            <graphic url="https://ucla.box.com/s/k96mxx43nau19m955mncw235gyss38h3"/>
+                            <graphic url="http://uclalibrary.github.io/sunset/images/downtown_mapLA.jpg"/>
                             <head>Map of the city of Los Angeles showing the confirmed limits surveyed in August 1857 by Henry Hancock</head>
                             <p></p>
                             <ab type="attribution">Surveyed by E.O.C. Ord, Lt. U.S.A. and Wm. R. Hutton, assistant. August 29th 1849. Image courtesy of the <ref type="url" target="http://digital2.library.ucla.edu/viewItem.do?ark=21198/zz00096ffr">UCLA Library Digital Collections</ref>.</ab>
@@ -78,7 +78,7 @@
                     
                     <p>Initially during the era when most Angelenos lived in the downtown area, it was also home to most of the functions they needed, as well as to most governmental offices, retail businesses, and even industries.  As more economically comfortable individuals moved away from the bustle that mix of activities brought with them, however, churches, schools and other such institutions followed them away from the central business district (CBD).  By 1920 when LA’s population reached 576,673 making it the 10th most populous city in the US, downtown Los Angeles had become a traffic nightmare as automobiles, street cars, buses, and pedestrians negotiated the canyons that the city’s so-called “height-limit” buildings created along it streets.  Some of downtown’s most prominent department stores also began to move to the rapidly growing communities developing elsewhere in the city.
                     <figure>
-                        <graphic url="http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/1780"/>
+                        <graphic url="http://uclalibrary.github.io/sunset/images/downtown_broadway.jpg"/>
                         <head>Broadway north from Fourth Street, downtown Los Angeles, 1903-1905</head>
                         <p></p>
                         <ab type="attribution">Title Insurance and Trust, and C. C. Pierce Photography Collection, courtesy of the <ref type="url" target="http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/1780">University of Southern California Libraries</ref> and the <ref type="url" target="http://www.californiahistoricalsociety.org">California Historical Society</ref>.</ab>
@@ -92,7 +92,7 @@
                     
                     <p>As Grand Avenue on Bunker Hill was cleared as part of the city’s slum clearance project (see Bunker Hill entry below), developers worked to create a cultural center in downtown as well.   Anchored on the south at 5th by the 1926 Central Library Building designed by Bertram Goodhue, Grand Avenue is home to the Music Center (located between Grand and Hope, Temple and 1st) which contains the Dorothy Chandler Pavilion (1964), Ahmanson Theatre (1967) and the Mark Taper Forum (1967).  The Music Center sits on land donated by the county, and was built using some $14 million in county revenue bonds and $20 million ($139 million in 2010 dollars) in private donations raised beginning in 1955 by Mrs. Chandler, wife of the publisher of the Los Angeles Times, and other individuals committed to making Los Angeles an important city in fine arts circles.  The fourth and newest building in the Music Center complex is Frank Gehry’s Walt Disney Concert Hall (111 S. Grand Avenue) opened in 2003.  These buildings are home to four resident companies: the Center Theatre Group, Los Angeles Master Chorale, the Los Angeles Opera, and the Los Angeles Philharmonic.
                         <figure>
-                            <graphic url="https://ucla.box.com/s/9qf077av5f8mghxnhznyxx7im3dsukdr"/>
+                            <graphic url="http://uclalibrary.github.io/sunset/images/downtown_performances.jpg"/>
                             <head>Grand Performances, CRA/LA</head>
                             <p>The CRA also required that California Plaza provide a performing arts program.  The global arts program offers free performance during the summer that reflect  a wide range of global cultures that attract tens of thousands of visitors to the California Plaza.</p>
                             <ab type="attribution">Photo courtesy of <ref type="url" target="http://www.crala.org/internet-site/Other/Art_Program/artist_list/grand_performances.cfm">CRA/LA</ref>.</ab>
@@ -172,7 +172,7 @@
                         <p>Each Roman Catholic Diocese or Archdiocese, like the Los Angeles Archdiocese, must have a cathedral church that is the home church for the bishop or archbishop.  From 1876 until 1996, St. Vibiana’s Cathedral at Main and Second Streets served that function for Los Angeles.  When the 1994 Northridge earthquake severely damaged St. Vibiana’s, the archdiocese and preservationists engaged in a lengthy battle over whether the church should be torn down or restored.  In 1996, a compromise was forged in which the archdiocese would purchase a parking lot near the 101 freeway owned by Los Angeles County and the City of Los Angeles would get the St. Vibiana site.</p>
                         <p>The new cathedral took the name Our Lady of the Angeles and September 4, the day celebrated as the founding day of the city, was taken as her feast day.  The cathedral, which opened in 2002, was designed by Spanish-born architect José Rafael Moneo.  This is another site well-worth the visit, not only for its stunning architecture but also for the art work inside.
                             <figure>
-                                <graphic url="http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/8852"/>
+                                <graphic url="http://uclalibrary.github.io/sunset/images/downtown_vibiana.jpg"/>
                                 <head>Exterior view of the St. Vibiana Cathedral soon after its completion on Main Street, Los Angeles, ca.1880</head>
                                 <p>The smaller building with the white picket fence is the Union Rescue Mission.  As you consider the Cathedral of Our Lady of the Angels, consider the dramatic changes in church architecture between the 1871 building and the 2002 building.</p>
                                 <ab type="attribute">Title Insurance and Trust Company. Photo courtesy of the <ref type="url" target="http://digitallibrary.usc.edu/cdm/ref/collection/p15799coll65/id/8852">University of Southern California Libraries</ref> and the <ref type="url" target="http://www.californiahistoricalsociety.org">California Historical Society</ref>.</ab>
@@ -193,7 +193,7 @@
                         <p>As the bus crosses Third Street, notice the tunnel to your right.  The tunnel was opened in 1901 as a way of connecting the part of the city that lay to the northwest of Bunker Hill with the rest of downtown.  If you walk back toward the tunnel when you get off the bus, you will see a sign commemorating Ira Yellin.  He, along with a small team of investors, bought and repaired the Bradbury building, Million Dollar Theater, and the Metropolitan Water District Headquarters, all of which you will see on Broadway. His restorations of Grand Central Market were completed with Community Redevelopment Agency and Metropolitan Transportation Authority funds.</p>
                     </div>
                     
-                    <div type="">
+                    <div type="box">
                         <head>Downtown Walking Tour 1:</head>
                         <p>(You should take at least one of these walks; if you have time you should consider doing several.  They are described so that you can get back on the bus if you want.  To walk the whole route is not difficult.)  FOR THIS TOUR, get off the bus at Third and Hill (the stop is across Third).</p>
                     </div>
@@ -202,7 +202,7 @@
                         <head><placeName>Bunker Hill</placeName></head>
                         <p>As you get off the get off the bus, look back toward where you came.  The imposing hill that you skirted on the bus (the seemingly empty blocks on the 1925 map above) is Bunker Hill.  While today, the hill is comprised primarily of high-end office space, it has gone through several phases in its history, from a primarily residential neighborhood, to a thriving mixed-use community, to its current form today.
                             <figure>
-                                <graphic url="https://ucla.box.com/s/rpeg77o4zye9j53xevh666hvkvrp1gpb"/>
+                                <graphic url="http://uclalibrary.github.io/sunset/images/downtown_heartofLA.jpg"/>
                                 <head>The Heart of Los Angeles</head>
                                 <p></p>
                                 <ab type="attribution">James H. Payne, Cartographer. c. 1925. Image courtesy of <ref type="url" target="http://digital2.library.ucla.edu/viewItem.do?ark=21198/zz001616pw">UCLA Library Digital Collections</ref>.
