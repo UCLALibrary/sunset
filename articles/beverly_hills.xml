@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beverly Hills</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <!-- we could also use type = entry or type=chapter-->
+                
+                <head>Beverly Hills</head>
+                <byline>Primary Authors: Janice L. Reiff</byline>
+                <figure>
+                    <!-- line map of where xx is on the sunset blvd -->
+                    <graphic url="http://bol.ucla.edu/emcaulay/1.jpg"/>
+                </figure>
+                
+                <p>For a profile of Beverly Hills today, see the Los Angeles Times’ Mapping L.A. project at 
+                    <!--<ref type="url" target="http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/west-hollywood/">-->http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/beverly-hills/.<!--</ref>.-->
+                </p>
+                
+                <div type="bus_notes">
+                    <head>Bus Notes</head>
+                    <p>As you ride through Beverly Hills, you will notice that the trip is probably faster than through other areas.  You may also have the sense that there is relatively little to see from the bus.  Several factors may help to account for both impressions.  First, bus traffic is relatively light through Beverly Hills.  Although people who work in Beverly Hills may be likely to use public transportation, those who live there are less likely to do so.  As a result, stops are relatively infrequent compared to <!-- insert 'other' ? -->areas, especially further east.  Second, Sunset Boulevard passes through the least commercial and near the most expensive residential parts of the city.  That fact, combined with the mature foliage and a strong desire for privacy on the part of many home owners, means that you are as likely to see fences, walls, and other barriers as you are to see the homes behind them.  </p>
+                </div>
+                <!-- closes bus notes div -->
+                
+                <div type="sunset_notes">
+                    <head>Sunset Notes</head>
+                    <p>It is important to consider Sunset’s place among the east-west traffic arteries in Beverly Hills as you consider the city’s evolution and what you see as you pass through.  Santa Monica Boulevard had served as the roadbed for the trains running from downtown to Santa Monica in the 1870s.  The street that would become Wilshire Boulevard was already targeted as Santa Maria’s main street even though it was then called Los Angeles Street.  By the time the <orgName>Rodeo Land and Water Company</orgName> started thinking about the roads for its new town, <persName>Gaylord Wilshire</persName> had already laid out his own elite subdivision nearer downtown and had donated land for a broad thoroughfare westward along the route used by the Tongva and Spanish explorers.  It was to bear his name and railroads and commercial and industrial trucking were to be prohibited.  As Los Angeles grew out from the center, Wilshire became its grand boulevard and would become Beverly Hill’s as well.  Sunset emerged in the first decades of the 20th century to service the large homes and wealthy residents and visitors in the most exclusive part of the emerging community of Beverly Hills.  Sunset Boulevard had already become the industrial street in the Hollywoods as movie studios clustered along it.  In Beverly Hills, it became the path for the elites of the industry who lived in Beverly Hills to get to their jobs nearby.  Until the mid-1920s, it stopped at the city’s western edge.  For most of its first two decades, it was as much a site of recreation as it was for transport. It was cut wide enough to have first a bridle path and then a bike path in its median.  Commercial and industrial activities were banned.  In short, it was truly a boulevard in the grandest sense of the word.  Even after Beverly Boulevard was graded and surfaced to the Pacific Palisades and when the entire route of Sunset was improved from downtown to the ocean in the New Deal, commuting patterns were such that it maintained its distinctive character.</p>
+                </div>
+                <!-- closes sunset notes div -->
+                
+                <div type="historical_overview">
+                    <head>Historical Overview</head>
+                    <p> Beverly Hills’ early history shares much in common with that of its neighbors.  Fresh water coming down the canyons and artesian springs meant that the Tongva peoples who made their homes in the Los Angeles Basin were the first residents of what would eventually become the City of Beverly Hills.  In August or 1769, <persName>Don Gaspar de Portolá</persName>, Fathers <persName>Juan Crespí</persName> and <persName>Francisco Gómez</persName> and the rest of their expedition to <placeName>Monterey</placeName> made camp reportedly near <placeName>La Cienega and Olympic</placeName> on its eastern edges.</p>
+                      
+                    
+                        <p>The land identified as Rancho Rodeo de las Aguas on the map was granted to Vicente Ferrer Villa, a Spanish colonial soldier, and his wife (and granddaughter of one of Los Angeles’ first Spanish residents), Maria Rita Valdez de Villa, in the 1820s.   
+                            <figure>
+                            <!-- <graphic url=""></graphic>-->
+                            <p></p><!-- this is a figure that doesn't appear to have a caption or URL. lisa will investigate -->
+                        </figure>
+                            Following his death, she was granted the deed to the land in what she preferred to call the Rancho San Antonio.  She oversaw its operation until the devastating drought of the early 1850s.  In 1854, she sold the property to Benjamin D. Wilson and Henry Hancock.  Wilson, a Tennessean by birth who came to California in 1841, married into the Californio Yorba family, invested in local property, and had been Los Angeles mayor all before he purchased his part of the de las Aguas land.  Hancock was born in New Hampshire and trained as a lawyer and surveyor before coming to Los Angeles in 1850 where he served as city surveyor.  The two men gradually sold off their acreage.  William Workman bought Hancock’s share, hoping to grow wheat but the drought of 1863-64 diminished the water supply enough to make that plan impossible.  Other smaller parcels were sold off, including, in 1865, a parcel to the Pioneer Oil Company that failed to find enough to make its efforts profitable.  The largest sale, a parcel of 3,600 acres, was in 1868 to Dr. Edward A. Preuss who plotted<!--platted--> the town of Santa Maria.</p>
+                    
+                    <p>The failure of Santa Maria provided an opening for Henry Hammel and Charles Denker, partners who operated two of Los Angeles’ most prominent hotels to buy up almost all of the original rancho during the heady boom years of the 1880s.  They, too, hoped to build a town on their property, one with the exotic name of Morocco.  However, that endeavor also failed and the partners used their acreage to raise animals and grow lima beans.
+                    
+                    <figure>
+                        <graphic url=""></graphic>
+                        <p>Small herd of dairy cows on the Hammel &amp; Denker Ranch in what is now Beverly Hills, c. 1905
+                            Title Insurance and Trust / C. C. Pierce Photographic Collection
+                            USC Digital Library
+                            http://digitallibrary.usc.edu/search/controller/view/chs-m5411.html?x=1350849593663
+                        </p>
+                    </figure>
+                    </p>
+                    
+                    <p>
+                        The Los Angeles oil boom of the late 1890s led another group of investors to look closely at the land <!-- missing word ?-->its possibilities for oil production still one more time.  The Amalgamated Oil Company, led by Burton Green, Charles A. Canfield, Max Whittier, Frank Buck, Henry Huntington, and W. G. Kerckhoff, bought the Hammel &amp; Denker land in 1900 and what existed of Morocco Junction – a street car station at what is now Santa Monica Boulevard and Canon Drive.  Although they found no oil on the property, they did find water.  That find helped <!-- lisa corrected from "help" --> to transform the Amalgamated Oil Company into the Rodeo Land and Water Company and the partners started the transformation of the ranch into what would become today’s Beverly Hills.
+                    </p>
+                    
+                    <p>To create the plan for their city, they hired landscape architect Wilbur D. Cook who had worked previously with the Olmstead Brothers and Daniel Burnham on the 1905 plan for San Francisco and with Charles Mumford Robinson on the plan for Oakland.  His design was distinctive and layout and in the infrastructure built into it.<!-- missing / wrong word -->   Deed restrictions limited buildings, uses, and residents.  Sales began on October 22, 1906, even before improvements were put into place.  The first house was finished in 1907, even as the Los Angeles real estate market began to slow once again. <figure><graphic url=""></graphic><p><!-- image without caption or link --></p></figure></p>
+                    
+                    <p>In spite of the downturn, the Rodeo Land and Water Company continued to improve its city-in-the-making. By 1911, a decision was made to build, as other communities had done earlier, <!-- omitted duplication of phrase "to build"--> a luxurious hotel to attract visitors and prospective  buyers to the community.  A site was chosen for the hotel at the place where Coldwater and Benedict Canyons came together.   Green recruited Margaret J. Anderson and her son Stanley who had operated the Hollywood Hotel to run the new Beverly Hills Hotel.  The $500,000 ($11.55 million in 2010) Mission-Style hotel designed by Elmer Grey was key to re-launching sales efforts in Beverly Hills.  The day after it opened in 1912, the developers began advertising again.  The hotel spurred new interest in the community and became its informal social center. <figure><graphic url=""></graphic><p>View of Beverly Hills Hotel under Construction, c 1912
+                        Los Angeles Public Library Photo Collection
+                    </p></figure> </p>
+                    
+                    <p>Burton Green and his family moved into the hills beyond the hotel, as did enough other families either there or further south beyond Santa Monica to meet the minimum population requirement of 500 to become a city.  The Rodeo Land and Water Company split into two entities – one that would become the Beverly Hills Utilities Commission and one that owned the land.  Petitions were signed, a vote was held, and, in 1914, Beverly Hills was incorporated as an independent city.</p>
+                    
+                    <p>The social geography of the different parts of Beverly Hills varied dramatically.  Businesses grew up along Santa Monica and Wilshire.  South of Santa Monica, the area known locally as Beverly, was not protected by the same restrictive covenants that forbade non-Caucasians except as servants:  “No part of said property shall at any time be sold, conveyed, leased or rented to or inherited by other otherwise acquired by or become the property of any person whose blood is not entirely that of the Caucasian race.”  Apartment buildings were allowed as were a range of land uses.  The oil that proved so elusive in early drilling efforts was eventually discovered and wells sprang up, adding to the differential landscapes of the two parts of the city.<figure><graphic url="http://jpg3.lapl.org/pics01/00020266.jpg"></graphic><p>Aerial View of Beverly Hills looking southeast, c. 1920.  Sunset Boulevard cuts through the middle of the picture; the Beverly Hills Hotel can be seen in the center just north of Sunset.  Santa Monica Boulevard is visible at the very top of the photo.
+                        Los Angeles Public Library Photo Collection
+                        http://jpg3.lapl.org/pics01/00020266.jpg
+                    </p></figure></p>
+                    
+                    <p>North of Santa Monica and especially north of Sunset, however, the city was residential and wealthy.  Despite initial concerns about movie people living in Beverly Hills, the arrival of Douglas Fairbanks and Mary Pickford and their mansion Pickfair on Summit added to the city’s growing reputation as THE place to live in the Los Angeles area. </p>
+                    
+                    <p>The movie colony was actively involved in the 1923 effort to fight annexation into the City of Los Angeles.  The growing population had put strains on the Beverly Hills’ water resources and some of the city’s residents had advocated solving the problem the way the San Fernando Valley and the new communities of Westwood, Bel-Air, Brentwood and Pacific Palisades to the west of Beverly Hills had solved the water issue: by becoming part of Los Angeles and the municipal water system that brought water from the Owens River Valley.  Among those leading the opposition to the annexation was humorist/actor/radio personality Will Rogers.  His neighbors were so grateful for his efforts that he was name the honorary mayor of Beverly Hills.</p>
+                    
+                    <p>The 1920s brought many changes to Beverly Hills.  Landmarks like the Beverly Hills race track that drew thousands of car racing enthusiasts to the area south of Wilshire and east of Santa Monica were torn down.  The fans moved to the new race track in Culver City; Beverly Hills upgraded the uses of the land.  Where the northeasterly curve in the track had once stood became, in 1928, the site of the luxury Beverly Wilshire Apartment Hotel.  It became one anchor of Beverly Hill’s upscale shopping district along Wilshire Boulevard and Rodeo Drive.  The City of Beverly Hills contributed to the effort to secure the new campus of the University of California for Westwood.  The population of the city jumped – from 674 in 1920 to over 17,000 in 1930.   The new city hall designed by William Gage that opened in 1932 celebrated the city’s increasing prominence. <figure><graphic url=""></graphic><p>Beverly Hills City Hall, c. 1937
+                        Los Angeles Public Library Photo Collection
+                    </p></figure></p>
+                    
+                    <p>By 1950, the city of 29,000 had secured its reputation as one of the nation’s wealthiest and most powerful suburbs.  An effort to keep African American entertainers from moving into Beverly Hills in the 1940s had failed, breaking the power of the racial provisions in the city’s deed restrictions for at least the most-famous and richest African Americans.  Its identification with Hollywood grew as the city became home to talent agencies representing those in the movie industry.  Its wealthiest residents were not restricted to those in the industry, however.  Beverly Hills was home to leaders in all kinds of business and industry, not only in Southern California but throughout the U.S. and the world.   Shops on Rodeo Drive seem to underscore the community’s wealth.  Images of Beverly Hills in the media reinforce these perceptions.  From the Beverly Hillbillies to Beverly Hills Cop to Pretty Woman to 90210, popular culture shows Beverly Hills in a particular light, even while overlooking the social, religious, ethnic, and economic diversity that does exist.  The political “clout” of the city’s residents were apparent in events such as the opening of the Beverly Hilton Hotel in the 1950s that drew Vice President Richard Nixon to the members of exiled political families who made their U.S. homes there later in the century.  Beverly Hills was successful in fighting the construction of the Beverly Hills Freeway in the 1950s and 60s.  It is currently engaged in a debate with Los Angeles and the Metropolitan Transportation Agency over the path of the new subway line to the ocean.</p>
+                    
+                    <p>New migrations into Beverly Hills have changed its ethnic makeup.  The current mayor is its first Iranian mayor, reflective of the population group that constitutes some 20% of city’s population.  Another 8% of its residents are of Russian heritage.  Almost 40% of its population is foreign-born.</p>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                
+                <div type="bibliography">
+                    <p>In addition to the individual sources and databases included above, the sources below were particularly useful:  </p>
+                    
+                    <bibl> Beverly Hills City Council.  Beverly Hills Historic Resources Survey, 1985-86.  Typescript.  Available at 
+                        <ref target="http://www.beverlyhills.org/cbhfiles/storage/files/6333100111590038901/HistoricResourcesInventory(1985-1986).pdf">http://www.beverlyhills.org/cbhfiles/storage/files/6333100111590038901/HistoricResourcesInventory(1985-1986).pdf</ref>.</bibl>
+                    
+                    <bibl>
+                        Beverly Hills Historical Society.  Water, Water Everywhere in Beverly Hills, part 1.  1991.  Available at <ref target="http://www.youtube.com/watch?v=tkCqGCZgN94&amp;feature=plcp">http://www.youtube.com/watch?v=tkCqGCZgN94&amp;feature=plcp</ref>.</bibl>
+                    
+                    <bibl>
+                        Beverly Hills Historical Society.  Water Comes to Beverly Hills, part II. 1991.  <ref target="Available at http://www.youtube.com/watch?v=maENkgtX-Ps&amp;feature=plcp">Available at http://www.youtube.com/watch?v=maENkgtX-Ps&amp;feature=plcp</ref>.
+                        </bibl>
+                    
+                    <bibl>Gross, Michael.  <title>Unreal Estate: Money, Ambition, and the Lust for Land in Los Angeles</title>.  New York: Broadway Books, 2011.  </bibl>
+                    
+                    <bibl>
+                        Meyer, Stephen Grant.  <title>As Long As They Don’t Move Next Door: Segregation and Racial Conflict in American Neighborhoods</title>.  New York, NY: Rowman &amp; Littlefield, 2001.</bibl>
+                    <bibl>
+                        Stein, Jeannine.  “Life at the Top Shops:  Party: The opening for Two Rodeo Drive complex drew 1,200 people. Most of the guests were Blue Ribbon members.”  Los Angeles Times (October 16, 1990).  Available at <ref target="http://articles.latimes.com/1990-10-16/news/vw-2613_1_blue-ribbon">http://articles.latimes.com/1990-10-16/news/vw-2613_1_blue-ribbon</ref> &lt;retrieved 10/22/2012&gt;.</bibl>
+                    <bibl>
+                        Wanamaker, Marc.  <title>Early Beverly Hills</title>.  Charleston, SC: Arcadia Publishing, 2005.</bibl>
+                    <bibl>
+                        Wanamaker, Marc.  <title>Beverly Hills, 1930-2005</title>.  Charleston, SC: Arcadia Publishing, 2006.
+                    </bibl>
+                   
+                </div>
+                
+                <div type="Points_of_Interest">
+               
+                  
+                   
+                    <div type="item" n="1">
+                        
+                        
+                        <head>  Dead Man’s Curve, Sunset Boulevard between Copley and Whittier</head>
+                        
+                        <p>
+                            It may be difficult to imagine given today’s traffic, but number 8 Billboard hit of 1964 told the story of a drag race that began at Sunset and Vine and ended in a crash at this near 90 degree curve near Sunset and Whittier.  Jan &amp; Dean, the duo that sang Dead Man’s Curve, were an important part of the Surf Music phenomenon that helped to glorify the Southern California lifestyle in the 1960s.  Their other hits such as Surf City and The Little Old Lady from Pasadena, along with the Beach Boys’ entire repertoire and songs like the Mamas and Papas California Dreamin’ (“I’d be safe and warm, if I were in LA”) offered a new generation a new set of images and reasons to come to Los Angeles.  In a twist of fate, Jan Berry was seriously injured when he crashed his Corvette not far from Dead Man’s curve in 1966.  To hear the recording, visit YouTube at <ref target="http://www.youtube.com/watch?feature=player_embedded&amp;v=S1Cuekbklkg">http://www.youtube.com/watch?feature=player_embedded&amp;v=S1Cuekbklkg</ref>.</p>
+                    </div>
+                    <div type="item" n="2">
+                        
+                        
+                        <head>Beverly Hills Hotel, 9641 Sunset Boulevard</head>
+                        
+                        <p>
+                            As the historical overview suggests, the history of the Beverly Hills Hotel is intimately involved with the history of the city of Beverly Hills and of Hollywood.  It quickly became the symbol of a Beverly Hills lifestyle that boasted wealth, leisure, celebrity and privacy.  The hotel, its bars, and its restaurants provided a place for people to see and be seen.  The bungalows located throughout the hotel’s grounds provided privacy to Hollywood stars and celebrities from all over the world.
+                        </p>
+                        <figure><graphic url=""></graphic><p>Sunset and Beverly Boulevards were constructed to have bridle paths in their medians to allow visitors to the hotel and residents in the hills an easy path for riding their horses.  The sign describes it as “Ye Bridle Path from Beverly Hills to the Sea and Mountains.”
+                            Los Angeles Chamber of Commerce Collection.
+                            USC Digital Library.
+                            http://digitallibrary.usc.edu/search/controller/view/chs-m11514.html?x=1351114371325
+                        </p></figure>
+                        <p>As other luxury hotels appeared in Los Angeles, the Beverly Hills Hotel went through several major renovations.  In the 1940s, Paul Williams, Los Angeles’ most prominent African American architect, designed a new wing and distinctive signage for the “Pink Palace,” as Elmer Gray’s original building was known.  In 1992, it closed for three years for a major updating and renovation.  In each of its incarnations, however, the hotel maintained what Forbes magazine called “the type of Old Hollywood vibe you can only find, well, in Beverly Hills” when it declared the hotel its Hotel of the Day on October 24, 2012.  It is worth walking into the hotel grounds to capture a bit of that vibe.  Visit its centennial web site if you don’t have time to go in and look around.  That will give you a sense of its close connection to Hollywood and the “good life” in Los Angeles over the decades.</p>
+                    </div>
+                    
+                    <div type="item" n="3">
+                        <head>Will Rogers Memorial Park, 9650 Sunset Boulevard</head>
+                        
+                        <p>The park across Sunset from the Beverly Hills Hotel was once part of the grounds of the Beverly Hills Hotel.  In 1915, it became the first municipal park in the new city of Beverly Hills.  The city renamed the park after Will Rogers, the first honorary mayor of Los Angeles, in 1952.
+                            
+                        </p>
+                    </div>
+                    <div type="item" n="4">
+                        
+                        
+                        <head> Virginia Robinson Gardens, 1008 Elden Way, Beverly Hills</head>
+                        
+                        <p>
+                            One of the few homes in the hills above Sunset before the Beverly Hills Hotel was a large Beaux Arts mansion built in 1911 by department store magnate Harry Robinson and his wife Virginia.  As he transformed his father’s Boston-based department stores into a successful Los Angeles store and then a chain, she transformed the six acres surrounding the house into a magnificent landscaped garden.  When she died in 1977 at age 99, the “First Lady of Beverly Hills” willed her property to Los Angeles County for the enjoyment of the public.  If you want to visit the gardens, you have to make a reservation in advance.  The Gardens and Home are a National Historic Landmark.
+                        </p>
+                    </div>
+                    <div type="item" n="5">
+                        
+                        
+                        <head>  Maria Rita Valdez de Villa adobe, Alpine and Sunset </head>
+                        
+                        <p>The adobe of Maria Rita Valdez de Villa, the owner of the Rancho Rodeo de las Aguas, stood near this corner.  Note as the bus approaches it from the west that the terrain is higher than it was near the Beverly Hills Hotel and Will Rogers Park.  One of the lowest sites in the area, it was where the waters came together (as the name of the rancho suggested) and was one of the places where artesian wells bubbled near the surface creating swamp-like (cienegas) conditions especially when there had been rain.  The higher location was almost certainly important in siting her home.
+                            <figure><graphic url=""></graphic>
+                                <p>The Roche adobe, c. 1920, located near the corner of Third and Robertson on what was the Hammel &amp; Denker Ranch.
+                                    Pierce, C. C. Collection, USC Digital Library
+                                    http://digitallibrary.usc.edu/search/controller/view/chs-m5413.html?x=1351142068020
+                                </p></figure>
+                        </p>
+                    </div>
+                    <div type="item" n="6">
+                        
+                        
+                        <head>  The Greystone Mansion, 905 Loma Vista Drive</head>
+                        
+                        <p>In 1926, Edward L. and Estelle Doheny gave some 12 of their 429 acre “ranch” that lay partly in Beverly Hills to their son, “Ned” and his new wife Lucy for a wedding present.  Doheny, Sr., had, with his partner Charles Canfield, drilled the first successful oil well in the Los Angeles City Oil Field.  His oil businesses in California and Mexico made him rich and involved him in one of the greatest American political scandals of the 1920s – the Teapot Dome Scandal.  Upton Sinclair used him as a model for the lead character in his novel Oil and he was recast again in the film There Will Be Blood.  His mansion was on Chester Place near USC (the Doheny library is named after him) and is now part of St. Mary’s College.
+                            <figure>   <graphic url=""></graphic><p>Greystone Mansion, Beverly Hills, n.d.
+                                California Historical Society Collection, 1860-1960
+                                USC Digital Library
+                                http://digitallibrary.usc.edu/search/controller/view/chs-m5412.html?x=1351145201466
+                            </p></figure>
+                        </p>
+                        <p>Reflecting the move of LA’s elites from south of Downtown to new communities along Sunset, Ned’s mansion was in Beverly Hills.  The 67 room (55 livable), Tudor-style mansion cost $3,000,000 ($37.8 million in 2010 dollars) and was the most expensive home ever built in California when it was finished in 1928.  Greystone Mansion, as it came to be called, boasted stables, gardens, waterfalls, and a golf course.  The following year, tragedy struck in the midst of the Teapot Dome scandal.  Ned was killed in a murder-suicide in the mansion.  </p>
+                        
+                        <p>In 1954, most of the ranch was sold to the Paul Trousdale Corporation which, after the whole area was annexed into Beverly Hills, created Trousdale Estates.  The mansion and surrounding acres were sold to a Chicago businessman and investor.  In 1965, the City of Beverly Hills purchased the mansion as a site for a needed 19 million gallon reservoir.  With the reservoir underground, the grounds were turned into a park.  The house served a movie location and housed various art activities.  More recently, the buildings (on the National Register) have benefitted from renovation efforts.</p>
+                        
+                    </div>
+                    
+                    <div><head>Off the Sunset Bus (but easily accessible from the Wilshire Bus)</head></div>
+                    
+                    <div type="item" n="7">
+                        
+                        
+                        <head>The Fairbanks Center for Motion Picture Study (the Margaret Herrick Library) 333 S. La Cienega Boulevard  </head>
+                        
+                        <p>This site, and the park in which it sits, brings together two key elements of Beverly Hills’ evolution:  water and the movies.  The impressive restored 1927 Mission-style building designed by Salisbury, Bradshaw &amp; Taylor was once the city’s water works.  The park in which it sits was built above a massive underground reservoir.  By 1965, the building had deteriorated because of the ill-effects of the water treatment process used there.  Repairing it seemed prohibitive so it fell out of use.  Preservationists hoping to save the building used elements of the city’s struggle to maintain its independence from Los Angeles in an effort to have it restored.  Variety highlighted the important role Douglas Fairbanks, Mary Pickford, Will Rogers and others played in that fight and emphasized that the water treatment plant was a result of Beverly Hills’ decision to provide its own water.  In the late eighties, the Executive Director of the Academy of Motion Picture Arts and Sciences acknowledged the Academy’s interest in preserving the building.  It launched a three year funding campaign and by the end of 1990, over $6 million dollars had been raised.  In 1991, the library, considered the world’s premier film archive and library, opened to patrons.
+                            <figure><graphic url=""></graphic><p>Future Site of the Civic Center Complex
+                                Beverly Hills Preservation Photo Collection
+                                from Russ, Levi, ” Beverly Hills’ Civic Center Complex, “ Beverly Hills Patch (December 20, 2011)
+                                http://beverlyhills.patch.com/blog_posts/beverly-hills-civic-center-complex#photo-8690608
+                            </p></figure>
+                            
+                        </p>
+                    </div>
+                    
+                    <div type="item" n="8">
+                        
+                        
+                        <head>Beverly Hills City Hall, 455 Rexford Drive</head>
+                        
+                        <p>The Beverly Hills City Council decided late in the 1920s that it wanted a civic center located on land owned by the Pacific Electric Corporation between Canon and Rexford, Santa Monica and Burton Way.  Even as the Great Depression was beginning, residents passed a bond issue to purchase the land at begin construction of the City Hall, designed in 1932 by architect William Gage.  The city was able, with the help of the U.S. government and a donation of land from the Rodeo Land Company, to secure a post office nearby at 325 N. Maple Drive.  That building, on the National Register of Historic Places, has attracted recent attention because of a proposal by the USPS to sell the property.
+                            
+                        </p>
+                    </div>
+                    
+                </div> <div type="item" n="9">
+                    
+                    
+                    <head> Beverly Wilshire Hotel, 9500 Wilshire Boulevard</head>
+                    
+                    <p>If you have ever seen the film Pretty Woman or the HBO Series Entourage, you have seen the inside of this famous landmark hotel.  Initially an apartment hotel built by real estate developer Walter McCarty, the Italian Renaissance building has been a prominent fixture on the Los Angeles social scene from almost the beginning.  In 1940s, a ballroom was added to enhance its appeal.  Now managed by Four Seasons Resorts, it has served as a temporary home for such celebrities as Elvis Presley and John Lennon.  The building by Walker &amp; Essen is on the National Register of Historic Sites.
+                        <figure><graphic url=""></graphic><p>Wilshire Boulevard and Rodeo Drive, Intersection facing west, 1930s, Beverly Wilshire Hotel on left
+                            http://beverlyhillshistoricalsociety.org/?page_id=6
+                        </p></figure>    
+                    </p>
+                    
+                </div>
+                <div type="item" n="10">
+                    
+                    
+                    <head>  Two Rodeo, northeast corner of Wilshire &amp; Rodeo Drive</head>
+                    
+                    <p>
+                        Two Rodeo is basically a small outdoor mall that creates an illusion of two small parallel streets that might be more easily found in Europe than in Southern California.  Costing more than $200,000,000 to create, the Los Angeles Times described it at its opening in October 1990 as “a movie-set interpretation of an outdoor shopping mall, a high-end Disneyland for shoppers and the world’s most exclusive mini-mall.”  It serves as a visual and tourist center for the famous high-end shopping district that clusters around Rodeo Drive.
+                    </p>
+                </div>
+                
+                <div type="item" n="11">
+                    
+                    
+                    <head>  Beverly Gardens Park, north side of Santa Monica Boulevard between Wilshire Boulevard and Doheny Drive</head>
+                    
+                    <p>
+                        The parkway that is now Beverly Gardens Park was created in 1911 as a green space and visual marker of the border between the residential area of Beverly Hills to the north and the commercial area to the south.  There are several pieces of art located in the park, among the most notable is the Electric Fountain located at the corner of Wilshire and Santa Monica.  The 1931 monument reportedly stopped traffic when it first opened as drivers stopped to watch the 60 different combinations of colors and lights that cycled every eight minutes.  The statue at top honors the Tongva people who once lived in Beverly Hills.  The plaque on the fountain documents some of the park’s history:  “This ground was purchased and developed into a park by the property owners of Beverly Hills north of Santa Monica Boulevard who have donated it to the city, all under the sponsorship of The Beverly Hills Residential Protective Association whose officers and directors are R. V. Morrison, President. Vice Presidents: W. A. Alderson; Edward P. Dentzel; Warde Fowler; Wm. B. Joyce; A. E. McManus; Conrad Nagel; C. A. Scull; John F. Starr; C. H. Wyant. Directors: Mrs. W. A. Alderson; P. F. Benedict; Lee Champion; Mrs. Edward P. Dentzel; A. R. Draves; Mrs. M. J. Gilbert; Frank C. Hedger; W. B. Hunnewell; Earl C. Jameson; Ward Lascelle; Parker M. Lewis; Ralph P. Lewis; W. D. Longyear; A. G. Mauss; E. M. Mauss; Mrs. R. V. Morrison; Mrs. J. E. Orbison; J. E. Orbison; G. M. Pardee; Charles Pfeiffer; Frederick M. Pitt; Paris B. Reeves; J. W. Ruffner; Mrs. W. S. Sessions; W. S. Sessions; Ivan Siegrist; Jacob. J. Siegrist; Elizabeth Lloyd Smith. Dedicated A. D. 1931. Cook, Hall and Cornell - Landscape Architects. For this fountain: Ralph C. Flewelling - Architect; Merrell Gage - Sculptor.”  Funds for the Electric Fountain were raised by the Beverly Hills Women’s Club.
+                        <figure><graphic url=""></graphic><p>Electric Fountain, Beverly Hills, 1931
+                            http://digitalcollections.lmu.edu/cdm/singleitem/collection/chgface/id/395/rec/2
+                            Werner von Boltenstern Postcard Collection
+                            Loyola Marymount University
+                            Online Archives of California
+                            http://ark.cdlib.org/ark:/13030/kt9489r2nz
+                        </p></figure>
+                    </p>
+                </div>
+                
+                <div type="item" n="12">
+                    
+                    
+                    <head> Beverly Hilton Hotel, 9876 Wilshire Boulevard
+                        
+                    </head>
+                    
+                    <p>
+                        
+                        The third of Beverly Hills famous hotels was designed by Welton Becket for Conrad Hilton as a showpiece hotel in his growing chain of hotels.  Opened in 1953, the hotel quickly became a site for celebrities to stay and a locale for various awards ceremonies.  
+                        <figure><graphic url=""></graphic><p>Vice President Richard M. Nixon at Beverly Hills Hotel Flag Raising Ceremony, 1955
+                            Los Angeles Examiner Negative Collection
+                            USC Digital Library
+                            http://digitallibrary.usc.edu/assetserver/controller/view/EXM-N-11537-011~5
+                        </p></figure>
+                    </p>
+                </div>
+                
+                <div type="item" n="1">
+                    
+                    
+                    <head>  Dead Man’s Curve, Sunset Boulevard between Copley and Whittier</head>
+                    
+                    <p>
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

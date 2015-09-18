@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Westwood</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <!-- we could also use type = entry or type=chapter-->
+                
+                <head>Westwood</head>
+                <byline>Primary Authors: Janice L. Reiff</byline>
+                <figure>
+                    <!-- line map of where xx is on the sunset blvd -->
+                    <graphic url="http://bol.ucla.edu/emcaulay/1.jpg"/>
+                </figure>
+                
+                <p>For a profile of Westwood today, 
+                    see the Los Angeles Times’ Mapping L.A. project at 
+                    http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/westwood/.
+                    and for the communities that were originally part of Westwood see
+                    http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/west-los-angeles/ &amp; 
+                    http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/century-city/
+               </p>
+                
+                <div type="bus_notes">
+                    <head>Bus Notes</head>
+                    <p>The 2/302 through Westwood only travels on Sunset Boulevard briefly as it moves east.  Instead, reflecting passenger traffic, it enters and leaves Westwood to the west on Montana, follows Gayley as it wends through North Westwood Village and along the western edge of campus, across UCLA’s southern border at Le Conte, up its eastern edge on Hilgard, and finally reaches Sunset Boulevard at the corner of <placeName>Hilgard, Sunset and Copa De Oro Road</placeName> (where Westwood meets Bel-Air).  To see Sunset in Westwood, you should walk (jog?) along the northern edge of campus.  Going toward the Pacific Palisades, the 2 and 302 make the same stops so you can take either (most buses are marked as 2/302 – Pacific Palisades).  Going toward downtown Los Angeles, however, pay careful attention to the bus you board.  Be sure to take the 2 rather than the express 302.  The 302 makes fewer stops and makes it harder for you to observe Sunset and the bus riders.  Not all 2s go all the way downtown, so pay attention both to the timetable and the signage on the front of the bus.  If the bus says Alvarado, that means the bus stops there and does not go downtown.  If you want to go all the way downtown, make sure that the bus says Downtown.  The bus driver will be helpful in answering your question about which bus to take if you are confused.</p>
+                    <p>Returning from downtown, you should use the same care.   Some buses only go from downtown to Fairfax.  Make sure that you take a bus that identifies itself as going to Westwood, UCLA, or the Pacific Palisades.</p>
+                </div>
+                <!-- closes bus notes div -->
+                
+                <div type="sunset_notes">
+                    <head>Sunset Notes</head>
+                    <p>The area of Los Angeles that is now Westwood has had two Sunset Boulevards.  When the <orgName>Santa Monica Land and Water Company</orgName> first platted<!-- typo? --> the area just east of campus as Sunset in 1887, the road that approximates the route of contemporary Wilshire Boulevard was named Sunset.  That subdivision never developed so the name disappeared.  When redevelopment efforts began again some thirty-five years later, the street then called Beverly Boulevard was cut, paved, widened, and improved from the western edges of Beverly Hills to the Pacific Ocean.  In 1934, Beverly from Westwood through the Pacific Palisades was renamed Sunset Boulevard.</p>
+                </div>
+                <!-- closes sunset notes div -->
+                
+                <div type="historical_overview">
+                    <head>Historical Overview</head>
+                    
+                    <p>
+                        <figure><graphic url=""></graphic><p>[Diseño del Rancho San José de Buenos Ayres : Calif.]  4362 S2275  Pen-and-ink on tracing cloth. From: U.S. District Court. California, Southern District. Land case 305 SD, page 73; land case map A-1352 (Bancroft Library). Shows drainage, buildings, boundaries, adjoining ranchos, etc.  Relief shown pictorially.  Note that the names of the ranchos on the east and west are backward.
+                        http://content.cdlib.org/ark:/13030/hb4q2nb276/?order=1
+                    </p></figure>
+                        
+                        From the time when the Tongva were removed to the missions until well into the twentieth century, what we now know as Westwood remained an agricultural area.  In 1826, a judge at the <orgName>Pueblo of Monterey</orgName> granted the <placeName>Rancho San Jose de Buenos Ayres (“Ranch of the Beautiful Breezes”)</placeName> to <persName>Don Maximo Alanis</persName>, a retired Spanish officer and long-term resident of Los Angeles.  He lived on the rancho, at 4,400 acres smaller than many of the other ranchos in the region, with his family until his death.  Suspicious of his neighbors, especially <persName>Francisco Sepulveda</persName>, in 1843 he petitioned <persName>Governor Manuel Micheltorena</persName> of the Mexican state of Alta California to confirm the ownership of his land, a petition that was granted.  When he died in 1851, ownership of the rancho fell to his five children. The same year, the U.S. Congress passed the Land Act of 1851 regulating property claims in the transition from Mexican legal system to the American.  His heirs sold their property, valued at $600 (approximately $15,500 in 2010 dollars), to American entrepreneurs, including <persName>Don Benito Wilson</persName>, an early settler and second mayor of American Los Angeles who bought most of the original rancho and grazed cattle there. <figure><graphic url=""></graphic><p>Map of the subdivision of Rancho San Jose de Buenos Ayres and the town of Sunset, owned by [the] Los Angeles &amp; Santa Monica Land &amp; Water Co., Theo G. Kocher &amp; Co, Surveyor
+                        Los Angeles Lithographic Co, Lithographer 1887
+                        http://content.cdlib.org/ark:/13030/hb0j49p0r4/?order=1
+                    </p></figure></p>
+                    
+                    <p>In 1884, <persName>John W. Wolfskill</persName> purchased the land for $40,000 in gold coin ($958,000 in 2010).  A rancher who encouraged the cultivation of lima beans in Southern California, Wolfskill was also interested in other land uses.  In 1887, he partnered with <persName>Senator John P. Jones</persName> and <persName>Arcadia Bandini de Stearns Baker</persName> in their successful effort to bring the Home for Disabled Veterans to Southern California.  Subsequently, he sold the rancho to the <orgName>Santa Monica Land and Water Company</orgName> for almost ten times his purchase price. The company recorded the plat for the town of Sunset in November.</p>
+                    
+                    <p>Sunset was to be a town surrounded by ten-acre farms tracts and connected to Los Angeles and Santa Monica by an interurban railway and a “grand” boulevard.  Streets were laid out, a system for distributing water was developed, and some parcels of land were sold.  Unfortunately for its developers, the Southern California land boom of the 1880s had collapsed and the anticipated benefits of the Veterans’ Home were not enough to sustain the new town.  A hotel was partially built near what is now Wilshire and Beverly </p>
+                    
+                    <p>Glen (Sunset Boulevard and Main Street on the Sunset advertisement).  One of the few remnants of Sunset is the cemetery that is now Westwood Village Memorial Park Cemetery (1216 Glendon).  The eastern section of the rancho was sold in 1902 to the developers of the Los Angeles Country Club.  Other northern sections were sold to Alphonso Bell, who developed Bel-Air.  The remaining 3,300 acres were quitclaimed back to John Wolfskill, who lived the rest of his life on the land that came to be known as Wolfskill Ranch.  When it, as part of Westgate, was annexed to Los Angeles in 1916, it was among the largest remaining undeveloped tracts of land in the city.</p>
+                    
+                    <p>In 1919, Wolfskill’s heirs sold the ranch for $2,000,000 (roughly $25,000,000 in 2010) to Arthur Letts, Sr., a British immigrant who came to Los Angeles in 1896 by way of Toronto and Seattle.  He purchased the bankrupt J. A. Williams &amp; Co. Dry Goods Store at the corner of Fourth and Broadway in downtown Los Angeles and reopened it that same year as the Broadway department store.  With his former employee John G. Bullock, he also founded Bullock’s Department Store at Seventh and Broadway.  Retailing made him rich.  An avid horticulturalist, Letts built an estate that he named Holmby House estate in what is now Los Feliz (located between Franklin, Vermont, Los Feliz and Laughlin Park).  Letts was particularly interested in the foothills areas of his new property, an area he christened Holmby Hills.  Perhaps encouraged by his son-in-law realtor Harold Janss, he also imagined a mixed development on his new property that included retail areas, apartments, single-family homes, and a university.  This area became Westwood.</p>
+                    
+                    <p>Along with his brother and father, Janss had founded the Janss Investment Company (JIC) in 1906 and had already developed such subdivisions as Ramona Acres in Monterey Park, Highland Villa and Belvedere Gardens in Boyle Heights, and the town of Yorba Linda.  After Letts died unexpectedly in 1923, JIC assumed ownership of and responsibility for the development of both Westwood and Holmby Hills (see Beverly Crest).  The firm would eventually develop some 90,000 acres of land in the Los Angeles region.</p>
+                    
+                    <p>Sales in Westwood began in 1922, a year when real estate was booming and LA’s population was growing dramatically.  The first areas opened to homeseekers and real estate investors alike lay between Santa Monica Boulevard (the route of the train from downtown to Santa Monica) and Pico Boulevard, a well-developed street for automobiles. JIC ran large display ads in the local press that suggested Westwood would close “the Gap between the City and the Sea.” Other ads highlighted the “high-class” developments nearby: exclusive residential communities, country clubs, and other amenities.  The convenient location meant that residents of Westwood could get to the beach in Santa Monica for a morning swim in only 12 minutes, return home, and still easily get to downtown Los Angeles.  By the summer of 1923, their ads were hailing Westwood as “The New City, bathed in the Sunshine of Success, where man and nature have combined to create <emph rend="ul">an Ideal Home City</emph>.” 
+                        <figure><graphic url=""></graphic><p>This 1924 display ad from the Los Angeles Times illustrates the Janss’ efforts to bring some of the Hollywood economic activities to Westwood and to suggest that Westwood real estate shared in the boom that marked that of Hollywood in the same years as well as to the cache that Wilshire Boulevard (at center) was developing at that time.</p>
+<p>                        Display ad 119 -- no title. (1924, Jan 27). <title>Los Angeles Times (1923-Current File)</title>, pp. 12-D12. Retrieved from http://search.proquest.com/docview/161592961?accountid=14512
+                    </p></figure></p>
+                    
+                    <p>Realizing that economic and institutional anchors were also critical for insuring the success of any subdivision, JIC offered large pieces of real estate and low prices to several motion picture companies to encourage them to build in Westwood.  Among the first to accept was Harold Lloyd, the popular comedian of the silent screen, who was in the process of dissolving his long-standing relationship with the Hal Roach.  Abandoning Culver City, Lloyd built his new studio at Santa Monica and Selby (now the site of the Latter Day Saints’ temple).   Fox Studios, with a studio in Hollywood, selected land between Santa Monica and Pico at Westwood’s most southeastern corner on part of which it currently still operates.  (Fox’s former back lot on Santa Monica, once a candidate for redevelopment for the Beverly Hills Freeway, is now the location of Century City Shopping Center.) <figure>
+                        <graphic url=""></graphic>
+                        <p>Investment profits were a recurring theme in many of the Janss’ ads for Westwood.  This one builds explicitly on the land boom that had marked Hollywood’s growth earlier.
+                            "Display Ad 116 -- no Title." Los Angeles Times (1923-Current File), Apr 13, 1924.
+                             http://search.proquest.com/docview/161678802?accountid=14512
+                        </p>
+                    </figure></p>
+                    
+                    <p>With the coming of the studios, the company opened up new areas for sale between Wilshire and Santa Monica, urging buyers to follow the studios to the “last great piece of desirable highland property between Los Angeles and the West beaches.”  Fox Studios quickly gave birth to the Fox Hills Units 1 and 2.  In the new year, the company dubbed part of this area the Prosperity Unit, describing it the last great Wilshire Boulevard Beauty Spot. By February, they added Prosperity Unit No. 1 – between Westholme and Beverly Glen, Wilshire and Santa Monica – to their offerings.   Next came the <placeName>Beverly Glen Boulevard District </placeName>along the road that was targeted for development to take automobile traffic from the West Side into the San Fernando Valley.  In the vision built into the plans for Westwood, lots here allowed for commercial development of various kinds.  The <placeName>Country Club Unit</placeName>, adjoining the <placeName>Los Angeles Country Club</placeName>, followed soon thereafter.  This area represented, as the <title>Los Angeles Times</title> noted, “Westwood’s highest level of residential development.  Adequate building, racial and zoning restrictions protect every residence from undesirable features.” </p>
+                    
+                    <p>The most northerly portion of Westwood, above Wilshire Boulevard, was the last area to be developed.  Its development was intimately tied to the move of the <orgName>Southern Branch of the University of California</orgName> from <placeName>its Vermont Avenue site</placeName> just blocks south of <placeName>Lett’s estate</placeName> (SEE EAST HOLLYWOOD) to Westwood.  After investigating 17 sites and narrowing their choices to Pasadena, Palos Verdes, and the 383 acre “Beverly” site proffered for $1,000,000 ($12,330,000 in 2010 dollars) by <persName>Edwin</persName> and <persName>Harold Janss</persName> and <persName>Alphonzo Bell</persName>, the <orgName>Regents</orgName>, in March of 1925, selected the latter site.  Also contributing to the “gift” of $3,000,000 in potential revenue loss and land sales of the Janss brothers and $350,000 by Bell, the cities of Los Angeles ($70,000), Santa Monica ($120,000), Beverly Hills ($100,000), and Venice ($50,000) offered to raise the indicated sums through a bond issue.  Los Angeles later added another $100,000 toward the university and, in a vote on Prop. 10 in 1926, the citizens of California approved a multi-million dollar bond issue to cover the cost of buildings.</p>
+                    
+                    <p>Almost immediately, the University of California at Los Angeles as it was renamed, became a selling point for Westwood Hills.  Each new campus milestone became advertising material for Westwood.  For faculty at the campus, they offered $3,000 home sites ($37,800 in 2010) in the Faculty Unit located west of the campus, south of Beverly (Sunset), and north of the Veteran’s Cemetery.   Anticipating an “army of students” when the University of California at Los Angeles opened in the fall of 1929 and in an effort to provide more services for the 5,000-plus residents of Westwood, the company began construction of commercial buildings in the new Westwood Village.  The first to be built still exists – the Westwood Dome located in the triangle created where Broxton and Westwood Boulevards meet.  When completed, it became the home of the Janss Investment Corporation as well as other shops.  Despite the national economic collapse of the Great Depression (which began even as Westwood Village was being constructed), the growth of the university (from 5,733 students in 1930 to 9,043 in 1940), aided by the continued growth of Los Angeles, let Westwood Village continue to grow.  In 1932, Bullock’s Department Store launched a store on Westwood Boulevard that it expanded in 1935.  That year, <orgName>Sears, Roebuck &amp; Co</orgName> announced a Westwood store, its third in Los Angeles.  <orgName>Meyer Siegel &amp; Company</orgName> opened a women’s specialty store on Westwood Boulevard late in 1937. <figure>
+                        <graphic url=""></graphic>
+                        <p>"Display Ad 92 -- no Title." Los Angeles Times (1923-Current File), Jul 11, 1926. http://search.proquest.com/docview/161905336?accountid=14512.</p>
+                    </figure></p>
+                    
+                    <p>Lot and building purchases in Westwood, as well as building construction there, however, slowed.  In the southern sections of Westwood, technology and tastes contributed to the effects of the Depression.  Harold Lloyd’s comedies that had entertained early movie goers when his studio moved to Westwood, had not transitioned effectively to “talkies” or to the Depression-influenced public tastes.  He sold a piece of his studio to the <orgName>Los Angeles School Board</orgName> for <placeName>Emerson Junior High School</placeName> and, in 1937, the rest to the <orgName>Church of the Latter Day Saints</orgName> for a <placeName>temple</placeName> that now commands the imposing site overlooking Santa Monica Boulevard.  </p>
+                    
+                    <p>Two related documents created by New Deal agencies provide a glimpse into the impact of the Depression on the area closest to Westwood Village.  The first is a map created by the workers in the federally-sponsored <orgName>Work Progress Administration</orgName> (WPA) that presented the results of a 1934 building-by-building survey of Los Angeles.  Nearly a decade after the JIC advertised that lots were already almost all sold, the map reveals how many of lots remained vacant (white polygons).  The red lots represent commercial structures; the yellow lots with a single-dot indicate single family homes. The influence of the campus is immediately apparent from the darker brown lots that made Hilgard Sorority Row (despite the labeling as fraternities).  The tan lot marked with a CL on Le Conte is the <placeName>Masonic Club of the University of California</placeName> (now the <placeName>Geffen Playhouse</placeName>) built in 1929. <figure>
+                        <graphic url="http://emcaulay.bol.ucla.edu/sunset/images/wpa_map_westwood.jpg"></graphic>
+                        <p>http://digitallibrary.usc.edu/assetserver/controller/view/WPA-M-7-25~1
+                            http://digitallibrary.usc.edu/search/controller/view/wpamaps-m231.html
+                            WPA Land use survey map for the City of Los Angeles, book 7 (Topanga Canyon to Hollywood District), sheet 25, Issued:
+                            1939, Surveyed 1934
+                            Creator: City of Los Angeles. Department of City Planning
+                        </p>
+                    </figure>
+                    </p>
+                    
+                    <p>The second is a description of larger segment of Westwood that contains the area indicated on the first map.  Using some of the same data as the first map but updating it to reflect a range of changes in the five years from 1934-39, the Home Owners Loan Corporation (HOLC), another New Deal agency, created maps and descriptions that determined whether the Federal Housing Authority (FHA) would guarantee real estate loans in particular neighborhoods.  Each area received a color coded rating:  green areas indicated that the chance of loan default or neighborhood deterioration (signaled by age of housing, construction hazards, mixed uses, or mixed populations) was small and, therefore, the FHA would be willing to insure loans.  Blue areas were also perceived as good risks.  Yellow areas, like the oddly shaped C71 area on the map, were seen as questionable, and red areas were those deemed unworthy of federal loan insurance.  The summary document that accompanied this map offers a description of how Westwood developed in the waning years of the Great Depression and the factors that would shape it in the years that would follow:
+                        
+                        <quote><p>Terrain: Level with favorable grades; no construction hazards. Land improved 70%. Zoning permits multi-family structures. Conveniences are all readily available. This area has been developed in the past 15 years but greatest activity has occurred within the last 4 or 5years. The U.C.L.A. has been a stabilizing influence and stimulus. The area is somewhat far-flung and improvements vary in its various sections, with fraternity and boardinghouses predominant in its northern part, duplexes and small multi-family dwellings in the southern portion and apartment houses of varying size occupying the strip along Wilshire Blvd. Architectural designs lack uniformity and range from the conservative to ultra-modern with a few freak-types thrown in for good measure.</p>
+                      <p>  Sprinkled throughout the area are single-family dwellings of good construction and design which are rapidly becoming under—improvements. Under conditions described it is logical that widespread values in lots of from $50 to $100 per front foot should prevail. The tendency of this area is definitely toward residential income properties. However, the influence of surrounding areas is such that their present high character seems assured for an indefinite period. Therefore, a designation of "high yellow" seems justified.</p></quote>
+                    </p>
+                    
+                    <p>This document and the accompanying map points to the social geography of Westwood that remains visible today.  It also reaffirms how important <orgName>UCLA</orgName> was for ongoing construction in the area, particularly when the federal government began insuring loans to stimulate the housing market that had largely collapsed in the early years of the Depression.   The lots that remained vacant during the early years of the Depression witnessed new construction, paid for in large part by 15- to 20-year loans insured by the <orgName>FHA</orgName>.  Included among that new housing were homes designed by some of Los Angeles’ emerging modernist architects, most notably <persName>Richard Neutra</persName>, followed a decade later by <persName>Rudolph Schindler</persName> and <persName>John Lautner</persName>.
+                        <figure><graphic url="http://emcaulay.bol.ucla.edu/sunset/images/redlining_westwood_t-races.jpg"></graphic><p>Excerpt, T-Races HOLC Security Map
+                            http://salt.unc.edu/T-RACES/demo/demo.html http://salt.unc.edu/T-RACES/data/la/ad/ad0265.pdf
+                        </p></figure></p>
+                    
+                    <p>The one red area barely visible at the lower left corner, while not actually part of Westwood, also shaped the social geography of Westwood.  An area that grew up in the shadow of the <placeName>Veterans’ Home</placeName>, the homes there were older and smaller than in Westwood.  They were also occupied by “laborers, employees of Soldier’s Home, and semi-skilled workers”, not the white collar workers and UCLA-related employees who were building homes near Westwood Village.  The absence of covenants on the property there that excluded people of color and demanded homes of a certain size and value as well as zoning that allowed for mixed-uses made the area ripe for a slum clearance project, and city planners proposed building public housing on the site between Ohio and Massachusetts, Beloit and Pontius.   Westwood community leaders lobbied against the proposal in a late 1930s version of NIMBYism and a different redevelopment plan for the area emerged. As a contemporary map reveals, however, that particular area was razed in the 1950s for the construction of the San Diego Freeway.</p>
+                    
+                    <p>By the late 1930s, Westwood Village was becoming an entertainment center as well as a shopping destination.  The <placeName>Bruin Theater</placeName> rose across the street from the <placeName>Fox</placeName> in 1937.  Even more spectacular than the <placeName>Streamline Moderne</placeName> theater was the <placeName>Tropical Ice Gardens</placeName> located south of Weyburn between Gayley and Veteran, which was marketed as the first all-year outdoor skating rink.  10,000 spectators could watch as many as 2,000 skaters on the ice.   Activities at UCLA led the <title>Los Angeles Times</title> to declare Westwood the cultural center of Los Angeles.
+                    <figure>
+                        <graphic url="http://emcaulay.bol.ucla.edu/sunset/images/ice_gardens.jpg"></graphic><p>Construction of Tropical Ice Gardens, Westwood Village; Photograph dated November 1938;
+                            Herald-Examiner Collection, Los Angeles Public Library http://jpg2.lapl.org/pics32/00050712.jpg
+                            http://photos.lapl.org/carlweb/jsp/FullRecord?databaseID=968&amp;record=6&amp;csears westwoodontrolNumber=54712
+                            
+                        </p>
+                    </figure></p>
+                    
+                    <p>As the Great Depression gave way to World War II, Westwood’s identity within Los Angeles seemed clear.  The restrictions on property uses ensured that it would remain solidly middle- and upper-class, even after the U.S. Supreme Court in <title>Shelley v. Kraemer</title> declared the racial restrictions that were built into most of Westwood’s deeds were unenforceable.  Indeed, the section of Westwood originally advertised as the University Entrance Unit (now familiarly known as <placeName>Little Holmby</placeName>) and the <placeName>Country Club</placeName> Units (now known as <placeName>south Holmby Hills</placeName> -- see the Beverly Crest description) became the site of some of Los Angeles’ most spectacular homes and biggest celebrities.  Somewhat more modest homes were built south of Wilshire and apartment buildings of various sizes grew up along some of the major streets.</p>
+                    
+                    <p>The continued growth of UCLA, to 13,398 students in 1950 to 17,331 in 1960 to 28,939 in 1970 and 34,023 in 1980, ensured ongoing construction on campus, a steady stream of students for Westwood stores, entertainment venues, and apartment buildings that flourished in the parts of Westwood zoned for multi-family dwellings.  (The area now known as North Village, between campus and Veteran, was one such area.)  <orgName>Bullock’s</orgName> built a new and store in 1951 (now <orgName>Ralph’s</orgName> and <orgName>Target</orgName>) to accommodate growing demand.   In 1940, the <placeName>UCLAN theater</placeName> (now the <placeName>Majestic Crest</placeName>) opened for live performances.  The <placeName>Regent Theater</placeName> opened in 1966, followed by the <placeName>UA Theater</placeName> in 1968, the <placeName>National Theater</placeName> in 1969 (now a vacant lot at the <placeName>corner of Gayley and Lindbrook</placeName>), and the <placeName>Avco Theater</placeName> in 1972. </p>
+                    
+                    <p>Yet, changes were underway that would have significant effects of Westwood.  One of the first came in 1955 when the <orgName>Janss Investment Company</orgName> moved its offices from Westwood and sold off its holdings there.  Another was the construction of Interstate 405.  Approved in 1955, construction was begun in 1957.  A boon to those coming into Westwood, it also increased traffic through the community in ways that led to community debates about enlarging Westwood streets that threatened the residential character of the neighborhoods surrounding them.   At the same time, the new freeway provided an effective barrier between Westwood and Sawtelle and the Veterans’ Home to its west.
+                        <figure><graphic url="http://emcaulay.bol.ucla.edu/sunset/images/405_construction.jpg"></graphic><p>San Diego Freeway Construction, 31 August 1958, Photographer: Sandusky.  Looking north -- Ohio Ave. crossing in foreground. In background is existing segment of San Diego Fwy as it pours traffic onto Sepulveda Blvd just south of Wilshire blvd.  Los Angeles Examiner Negatives Collection, 1950-1961.
+                            http://digitallibrary.usc.edu/assetserver/controller/view/EXM-N-12406-003~6
+                            http://digitallibrary.usc.edu/search/controller/view/examiner-m15819.html
+                        </p></figure>
+                    </p>
+                    
+                    <p>The never-built Beverly Hills Freeway that would have cut through Westwood along Santa Monica Boulevard also had a significant impact on future development.  Late in 1957, 20th Century Fox announced plans for a $400,000,000 on the back lot of the land it had bought in 1923.  Century City, as it was to be called, would be conveniently located next to that freeway.  It was to be a city within the city, consisting of 20 and 30 story office buildings, a 1,000 room hotel, and a collection of 18-, 7-, and 2-story apartment buildings.  Financial problems at Fox and Beverly Hills’ successful efforts at stopping the freeway kept the original Century City from being built.  Under new ownership, the construction began on first building in Century City in 1963.  Although the original plans that anticipated 25,000 residents were never fulfilled, Century City did bring skyscrapers to Westwood, some 6,000 residents by 2010, and a daytime population of nearly 50,000 persons.  The Los Angeles Times currently considers Century City to be its own neighborhood, no longer part of Westwood which the Fox Studios helped to market. 
+                    <figure>
+                        <graphic url="http://emcaulay.bol.ucla.edu/sunset/images/century_city_drawing_plus_photo.jpg"></graphic>
+                        <p>Line drawing from Johns, A. (1960, Mar 20). Artist's conception. Los Angeles Times (1923-Current File), pp. 1. Retrieved from http://search.proquest.com/docview/167663278?accountid=14512
+                            The contemporary image (Santa Monica Boulevard is to the North, Olympic Boulevard is visible from the lower center edge curving to center right edge) appeared in The UCLA Extension Public Policy Blog https://uclaextensionppp.wordpress.com/2012/01/06/to-drill-or-not-to-drill/.
+                        </p>
+                    </figure>
+                    </p>
+                    
+                    <p>In 1964, <placeName>Century City Shopping Center</placeName> (now <placeName>Westfield Century City</placeName>) opened.  Among other offerings, it provided far more parking for shoppers than was available in Westwood Village.  Especially as its retail offerings expanded, Century City began to compete with Westwood Village for retail customers.  The pedestrian shopping mall along Third Street in Santa Monica established in the 1960s was connected to an enclosed shopping center, Santa Monica Place, in 1980.  Five years later, a small mini-mall and a May store near Pico and Westwood (the former site of Los Angeles’ first drive-in theater) were converted into the <placeName>Westside Pavilion Shopping Mall</placeName> after the developers reached an agreement with local residents to provide adequate parking and keep the Von’s grocery store as part of the mall.  Westside Pavilion also competed for retail dollars.  By the 1980s, stores were leaving Westwood.  By 1982, the last of the large grocery stores left Westwood and Sears, J.C. Penney, and Woolworth’s were all gone.  The one new area of retail development was south of the Village, along Westwood Boulevard.  There, refugees from the Iranian Revolution in 1979 found a place to start a range of businesses supporting Los Angeles’ growing Persian community. </p>
+                    
+                    <p>As shoppers were leaving Westwood Village for newer and more convenient destinations, the distinctive look of Westwood Village also changed.  The Park Westwood Apartment Tower built in 1960 was Westwood’s first high-rise building at 14 stories.  The 21-story Wilshire-Westwood Office Building opened in 1963.  Beginning in the mid-70s, the 1920s apartment buildings that had dominated Wilshire from Westwood Village to Beverly Hills started being replaced by modern luxury condominium complexes.  By 1981, the city implemented the Wilshire-Westwood Scenic Corridor Specific plan to address density, aesthetic, and other concerns.</p>
+                    
+                    <p>Nightlife continued to flourish throughout the 70s and early 80s, supported by an ever-larger student population at UCLA and others who came to see movies on one of the many screens in Westwood or theater in the Westwood (now Geffen) Playhouse.  In 1988, the <placeName>Armand Hammer Museum</placeName> opened, providing another art venue in addition to the Franklin D. Murphy Sculpture Garden on the UCLA campus.  That same year, eight Westwood buildings were designated as Los Angeles City Historic-Cultural Monuments.  Offsetting those developments, however, was a shooting on January 31, 1988, when a young woman was killed by a gunshot directed by a gang member at a member of another gang.  Westwood no longer seemed safe and nightlife began to suffer as well.  Over the next decade, movie houses closed and UCLA students found other places to go for entertainment.</p>
+                    
+                    <p>By the early 90s, once-thriving Westwood Village was struggling.  Stores stood empty.  Few of the 200,000 people who lived within a three-mile radius of Wilshire and Westwood found reasons to go there and the 27,000 people who worked within walking distance of Westwood Village did little shopping there or remained after work for meals or other entertainment.  The area was most notable for the 130,000 vehicles that entered the Wilshire-Westwood intersection every day.  Those numbers attracted the attention of new developers and led to an update of the Westwood Community Plan.  By the end of the decade, several large investors were promoting redevelopment schemes for Westwood.  Pieces of those ambitious plans eventually came into being, bringing Ralph’s, Whole Foods, Trader Joe’s, and CVS into Westwood, as well as the Palazzo Westwood Village apartment complex.   With the infusion of a large donation in 2002, the UCLA owned (since 1993) Westwood Playhouse was renovated and renamed the Geffen Playhouse bringing live theater to Westwood after its reopening in 2005.  UCLA continued to expand into Westwood Village as a site for its offices and, more recently, graduate student housing along Veteran Avenue.   In 2009, a Westwood Community Council was formed as allowed by the Los Angeles City Charter. </p>
+                    
+                    <p>Several efforts are currently underway to revitalize Westwood Village.  In 2011, UCLA’s citylab engaged two teams to design scenarios for a new Westwood.  Businesses have imposed a self-tax to pay for neighborhood improvements.  Metro’s proposed purple line expansion promises to link Westwood to the city’s expanding rapid transit system in 2036. </p>
+                    
+                    
+                </div>
+                
+                <div type="bibliography">
+                    <p>In addition to the individual sources and databases included above, the sources below were particularly useful:  </p>
+                    
+                    <bibl> <author> Braun, Stephen.</author> “West Hollywood Adopts Tough Rent Control Law.” <title>Los Angeles Times</title> Los Angeles, Calif., United States, June 28, 1985. http://search.proquest.com/hnplatimes/docview/154242572/abstract?accountid=14512. </bibl>
+                   
+                   
+                   <bibl>
+                       <author>Anderson, Robin. </author> “Remedial Urban: History, Apathy, Old Plan Stunt Village.”  <title>California Planning and Development Report</title>, 23:6 (June 2008).  Accessed September 16, 2012.  http://www.cp-dr.com/node/2039.</bibl><bibl>
+                       <author>Los Angeles County, Office of the Assessor.</author>  Property Assessment Information.  http://assessor.lacounty.gov/extranet/Datamaps/Pais.aspx</bibl><bibl>
+                     <author>  Los Angeles Department of City Planning.</author>  “Westwood Community Plan.” Accessed September 4, 2012.   http://cityplanning.lacity.org/complan/pdf/wwdcptxt.pdf. </bibl><bibl>
+                      <author> Office of Historic Resources, City of Los Angeles. </author> “Designated Historic-Cultural Monuments.”  Accessed on August 16, 2012.  http://www.preservation.lacity.org/monuments/.</bibl><bibl>
+                       <author>Stephens, Josh. </author> “UCLA cityLAB Tries to Lift Westwood’s Curse.”  <title>jstephen’s blog: California Planning and Development Report</title> (7 October 2011).  Accessed September 16, 2012.  http://www.cp-dr.com/node/3037. </bibl><bibl>
+                      <author> UCLA AIM. </author> “UCLA Student Enrollment History, 1919 to the Present.” Accessed August 15, 2012.  http://www.aim.ucla.edu/enrollment/enrollment_history.asp.</bibl><bibl>
+                      <author> University of California History: Digital Archives. </author> “Los Angeles: Historical Overview.” Accessed August 16, 2012. http://sunsite.berkeley.edu/uchistory/general_history/campuses/ucla/overview.html</bibl><bibl>
+                      <author> Wanamaker, Marc. </author> <title>Westwood.</title>  Charleston, SC: Arcadia Publishing, 2010.</bibl><bibl>
+                      <author> Wilcox, Gregory J.</author>  “Redesigning Westwood; Developers Buy Up Space.”  <title>Daily News</title>, Feb. 8, 1998.  http://www.thefreelibrary.com/REDESIGNING+WESTWOOD%3B+DEVELOPERS+BUY+UP+SPACE.-a083810549</bibl><bibl>
+                       
+                   </bibl>
+                   
+                   
+                   
+                </div>
+                
+                <div type="Points_of_Interest">
+                
+                        
+                      <div>  
+                        <head>Off the bus</head>
+                        
+                        <p>You will have ample reason to visit Westwood Village during the quarter.  When you do, consider it from the perspective of the innovative retail area that it was in the late 1920s and early 1930s and the retail area it has become.  
+                       
+                    </p></div>
+                    <div>
+                        <head>… and in the Village:</head>
+                    </div>
+                    <div type="item" n="1">
+                        <head>Holmby Hall, 921 Westwood Boulevard, NW corner of Westwood and Weyburn</head>
+                        <p>Another of Westwood’s historic-cultural monuments and one of its 1929 buildings, Holmby Hall consists of six Spanish Colonial Revival storefronts along Westwood Boulevard dominated by a white clock tower described by some architectural critics as English Norman.  It was designed by architects Gordon Kaufmann (Los Angeles Times Building) and John and Donald Parkinson (Union Station).  The second floor of the storefronts served as UCLA first women’s dorm. </p>
+                </div>
+        
+                
+                <div type="item" n="2">
+                    <head>Robert Baer, All Roads Lead to Westwood, sidewalk project on Weyburn Avenue between Westwood and Broxton</head>
+                    <p>This art work, installed in over several years and completed in 2001, consists of tiles that reference famous streets and directions that lead to Westwood. as well as cryptic directions and some sculptural pieces.  Funding for the project was provided from the Los Angeles law that allocates 1% of the cost of a construction project for public art.  The construction project was the parking structure on Broxton that was built to alleviate Westwood’s persistent parking problem.</p>
+                </div>
+                
+                <div type="item" n="3">
+                    <head>Fox Westwood Village, 945 Broxton, NW corner of Broxton and Weyburn</head>
+                    <p>	The Fox Theater, opened in 1931, was designed by architect Percy Parke Lewis, who also designed the main church building of St. Alban’s Episcopal Church on Hilgard Avenue.  The tower on the 1,300 seat Spanish Colonial Revival Theater was the idea of the Janss Investment Company that thought towers in their new commercial would attract drivers passing by on Wilshire Boulevard, already seen by many as Los Angeles’ Grand Boulevard.  The Janss Company jointly developed the theater with the Fox Corporation, one of Westwood’s earliest investors.  The size of its auditorium attracted many movie premiers, especially after the Bruin opened across the street.  As multiplexes became the preferred form for theaters, the Fox fell on hard times.  Despite its designation as a historic-cultural monument, the theater almost closed for good in 2009.  In 2010, Regency Theaters assumed operation of both the Village and the Bruin Theaters.</p>
+                </div>
+                
+                
+                <div type="item" n="4">
+                    <head>Fox Bruin Theater, 948 Broxton, NE corner of Broxton and Weyburn</head>
+                    <p>The Fox Bruin Theater, designed by S. Charles Lee, opened in 1937.  Lee, recognized as one of the most distinguished motion picture theater designers on the west coast, chose a Streamline Moderne style for this 696-seat theater across the street from the Village.  He had already designed the Tower Theatre (802 S. Broadway, 1927) and the Los Angeles Theatre (615 S. Broadway, 1931), two of downtown Los Angeles’ most famous movie palaces, when he was commissioned for the Bruin.  Its proximity and size meant that it was often used, along with the Village, for spectacular movie premiers.  Also a Los Angeles historic-cultural landmark, it was also saved from closing by Regency.
+                        <figure><graphic url=""></graphic><p>Movie Premiere for Frank Capra’s <title>Here Comes the Groom</title>, probably 1951
+                            Ralph Morris, Photographer,
+                            Los Angeles Public Library Photo Collection
+                            http://jpg2.lapl.org/theater3/00015725.jpg
+                            http://photos.lapl.org/carlweb/jsp/FullRecord?databaseID=968&amp;record=2&amp;controlNumber=4054
+                        </p></figure>
+                    </p>
+                </div>
+                
+                
+                <div type="item" n="5">
+                    <head>Janss Investment Company Building, 1045-99 Westwood Boulevard, NW corner of Westwood and Kinross</head>
+                    <p>Home to the Janss Investment Company that developed Westwood, this building, also known as the Janss Dome for its most distinctive feature, was the first building to open in Westwood Village in 1929.  Designed by the architectural firm of (James Edward) Allison and (David Clark) Allison that also designed Royce Hall and Kerckhoff Hall on the UCLA campus.  The Company had offices in the building until the mid 1950s, but its wings also housed other activities.  Most notably, it served as an early dormitory for UCLA’s male students.  Its striking features made it attractive to banks and restaurants, both of which operated there once the Janss Company left.  Yamato Japanese restaurant currently occupies the Dome part of the building.</p>
+                </div>
+                
+                
+                <div type="item" n="6">
+                    <head>Bratskeller/Egyptian Theater (Ralphs Grocery Store) 1142-1154 Westwood Boulevard, NE Corner of Lindbrook and Westwood</head>
+                    <p>A Los Angeles Historic-Cultural Monument, this 1929 building was one of the six original buildings in Westwood Village.  A blend of different architectural styles, it was design by architects Russell E. Collins and S. N. Benjamin.  From 1929 through the mid 1960s, it was home to a store operated by the Southern California based Ralphs grocery chain.  When Ralph’s left Westwood, part of the store was converted into a now-closed movie theater.  A number of restaurants occupied parts of the space, including the Bratskeller (thus the building’s name when it received its historic designation), La Salsa, and most recently Peet’s Coffee and Tea and 800 Degrees. The building is also currently home to the Westwood Village Synagogue, as well as several other stores along Westwood Boulevard.</p>
+                </div>
+                <div type="item" n="7">
+                    <head>Courtyard Apartment Complex, 10836-40 Lindbrook Avenue</head>
+                    <p>This Monterey Revival apartment complex built in 1935 and the Spanish Colonial Revival apartment building next to it at 10830 Lindbrook provide a look at what the Janss Company had in mind for apartment living in Westwood Village.  Now a 22 condominium complex, it is definitely worth a peek inside the complex to appreciate what Westwood living meant for those who could only afford an apartment in the upscale community as the Depression drew to a close.</p>
+                </div> 
+                    <div type="item" n="8">
+                        <head>Armand Hammer Museum of Art and Culture, 10899 Wilshire Boulevard (northeast corner of Westwood and Wilshire)</head>
+                        <p>The Hammer Museum was the idea of Dr. Armand Hammer, former chair of Occidental Petroleum Corporation, and was financed by Occidental Petroleum.  When it opened next door to the Occidental headquarters building in 1990, it displayed Hammer’s own collections and had additional space for traveling exhibits.  When Hammer died three weeks later, construction stopped leaving exhibit spaces and the auditorium unfinished.  In 1994, UCLA assumed management of the museum, relocating its collections from the Wight Art Gallery and the Grunwald Center for the Graphic Arts to the museum and putting the Franklin Murphy Sculpture Garden under the Museum’s auspices.  The auditorium was finished and named the Billy Wilder Theater.</p>
+                </div> 
+                    <div type="item" n="9">
+                        <head>Linde Building, 10921 Westwood Boulevard (northwest corner of Westwood and Wilshire)</head>
+                        <p>The 12-story office building was designed by Paul R. Williams, Los Angeles’s most prominent mid-century African American architect. Morris Linde, president of the development and construction firm that bore his name, envisioned the building as a full-service medical facility. According to the description at the PRW Project, it would be an “urban healthcare mecca.” Construction began in 1961 after several years of planning. One of the factors influencing its location was its proximity to UCLA’s School of Medicine (the inaugural class came in 1951) and the UCLA Medical Center (opened 1955).</p>
+                </div>
+                    
+                    <div type="item" n="10">
+                        <head></head>
+                        <p></p>
+                    </div>
+                </div>
+                  <div>
+                      <head>… and south of Wilshire</head>
+                      
+                      <div type="item" n="10">
+                          <head>Westwood Village Memorial Park Cemetery, 1218 Glendon Avenue</head>
+                          <p>The cemetery was originally created as part of the development of Sunset Township in 1887 on land owned by Elizabeth B. Hughes.  In 1905, its management was assumed by the Sawtelle Cemetery Association and it was formally established as a cemetery with the State of California.  It took the name of Westwood Memorial Park in 1926 to reflect the development of Westwood around it.  Originally larger by almost a half, unused pieces of its real estate were sold off in the 1950s and 60s for nearby development.  The first mausoleum was built there in 1952 and a chapel was added in 1961.  When Marilyn Monroe died in 1962, she was buried in the cemetery in which two of the women who served as her guardian were also buried.  Subsequently, it became the final resting place of many other celebrities including Truman Capote, Billy Wilder, and Ray Bradbury.  It experienced a moment of infamy in 2009 when a widow, hoping to pay off the mortgage on her Beverly Hills home, put her late husband’s crypt above Marilyn Monroe’s up for sale on e-Bay.</p>
+                      </div>
+                      
+                      <div type="item" n="11">
+                          <head>Crest Theatre, 1262 Westwood Boulevard</head>
+                          <p>The Art Deco Revival Crest Theatre was opened in 1940 by Frances Seymour Fonda as a live theatre venue named the Westwood Theatre.  During World War II, it became a popular newsreel venue, for a brief period known as the UCLAN.  It became the Crest in the 1950s and was an important venue in Westwood’s collection of notable movie theatres.  Reflecting Westwood’s changing fortunes, its ownership changed several times in the 1980s during which years the 500-seat studio designed by Arthur W. Hawes was renovated and remodeled.  Currently closed and for sale, it was designated a Los Angeles Historic-Cultural Landmark in 2008 to help prevent its destruction.  Should it open, take the opportunity to visit it and see the diorama of Hollywood landmarks painted on its walls, imaginatively highlighted by ‘black-light,’ and the shooting stars on its ceiling.   You can get a brief look on the YouTube Video:  Insider’s Peek #4 – Village, Bruin, Crest.</p>
+                      </div>
+                      
+                      <div type="item" n="12">
+                          <head>Persian Square, 10900 Wilkins Avenue (corner of Westwood and Wilkins)</head>
+                          <p>If you have walked this far on Westwood Boulevard, you have already seen hints of why this particular location was designated as Persian Square.  The Iranian Revolution of 1979 led many Iranians to flee their country; Los Angeles became a favored relocation site fin the US and Westwood the early focus of much of this migration.  The corner of Westwood and Wilkins was the site of the first Persian business established in Los Angeles (1974).   Current estimates of the Persian population in the greater Los Angeles go as high as 800,000, numbers that have given birth to the descriptive word Tehrangeles.  Make a brief stop in one of the various stores or restaurants on your way back to campus.  The City of Los Angeles approved the designation of Persian Square in 2010. <figure><graphic url=""></graphic><p>Persian Square<lb/>Site of the beginning of the Persian business community in Los Angeles beginning in 1974.</p></figure></p>
+                      </div>
+                  </div>
+                <div><head>On the Bus (going east from Westwood Boulevard):</head>
+                      <div type="item" n="13">
+                          <head>Geffen Playhouse / Masonic Affiliates Club, 10886 Le Conte Avenue</head>
+                          <p>As you are waiting to board the bus at Westwood and Le Conte, you should probably take a look at the Geffen Playhouse.  One of the first 12 structures in Westwood, it was built for the many students, faculty, and visitors associated with the Masonic Order and with UCLA.  A similar clubhouse already existed at UC Berkeley.  It served this constituency until the early 1970s when Donald and Kristen Combs bought the building for their furniture store.  After restoring several original design elements of architect Stiles O. Clements, they included an Italian restaurant and the Westwood Playhouse.  The family donated the building to UCLA in 1994, with the requirement that it remain a theater and that Gilbert Cates, the founding dean of UCLA’s  School of Theater, Film &amp; Television, be responsible for its development. When it opened in 1995, it carried the name of its founding donor, David Geffen.</p>
+                      </div>
+                    
+                    <div type="item" n="14">
+                        <head>Sorority Row, from 862 through 616 Hilgard</head>
+                        <p>The need for student housing when the UCLA campus opened was (as now) great.  Sororities on Hilgard and fraternities west of campus were among the earliest residences.  Most of the sorority houses you see as you ride past these two blocks were built between 1928 and 1936.   As you ride by, consider the gender assumptions and the social relations of those decades and their impact on the physical geography of the campus and Westwood then and the social geography that continues now.  Contrast those assumptions to newer housing on the Hill.</p>
+                    </div>
+                    
+                    <div type="item" n="15">
+                        <head>Mira Hershey Hall, 801 Hilgard Avenue</head>
+                        <p>Following Mira Hershey’s death in 1930, some of her substantial fortune was willed to UCLA to build this Renaissance style dormitory in 1931.  Much remodeled and repurposed, Hershey Hall was the first on-campus dormitory and originally provided housing for 131 women students.  Mira Hershey was heir to an Iowa lumber and farming fortune who, in the first years of the 20th century, bought the Hollywood Hotel (now razed, then at the northeast corner of Hollywood and Highland).  She expanded her fortune by investing in Hollywood real estate and left much of it to charitable institutions in Los Angeles and in her home town in Iowa.</p>
+                    </div>
+                    
+                    <div type="item" n="16">
+                        <head>The University Entrance Subdivision, starting at Strathmore and Hilgard</head>
+                        <p>Looking away from campus, you should notice an important change in the buildings.  The design for Westwood near the campus called for multi-family residences, sororities, and dormitory-type structures south of Strathmore.  St. Albans Episcopal Church and the University Y.W.C.A (where Hillel now stands) represented the edge of this use pattern.  Instead, large, single family homes begin to dominate the landscape.  The Janss’s marketed this area as a high-class residential section, stretching from Hilgard in what they marketed in Westwood through Holmby Hills (described in the Beverly Crest section), their own offering seen as equivalent to Bel-Air and Beverly Hills. 
+                      </p></div>
+                    
+                    <div type="item" n="17">
+                        <head>Hilgard/University Drive Entrance to UCLA</head>
+                        <p>As you ride past campus between Strathmore and Wyton, seeing only the growth of trees now standing between Hilgard and Murphy Hall, it is worth reflecting on the fact that this was once the scenic approach to campus.   As is almost visible in the photo (the intersection of Sunset Boulevard and Hilgard Avenue is at the top center of the photo), the view from Hilgard and the smaller University Drive that intersected with it at Wyton and at Strathmore was unobstructed as one looked west toward Haines Hall, Royce, the Physic Building (now Humanities, and Powell Library.  Moore Hall is under construction in the center of the photo.  Note, too, that the bridge over the ravine that made the view even more spectacular.  The bridge was the first structure built on campus and still remains – obscured by the fact that the ravine has been completely filled in and is now Dickson Court.  (To get a glimpse of that earlier view when you are on campus, walk from Murphy toward Hilgard on Charles E. Young Drive.  When you arrive at Founder’s Rock – you won’t miss it, turn around and look toward Powell Library. <figure><graphic url=""></graphic><p>Aerial view of UCLA's campus during construction, as seen from the southwest. View shows Royce Hall, the Physics (now Humanities) building, Haines Hall, and Powell Library. Moore Hall is under construction.  Note that the main entrance across the bridge over a ravine (now the Dickson Quads) toward Hilgard Avenue.  
+                            http://photos.lapl.org/carlweb/jsp/FullRecord?databaseID=968&amp;record=1406&amp;controlNumber=62090
+                            Los Angeles Public Library Photo Collection
+                        </p></figure></p>
+                    </div>
+                    
+                    <div type="item" n="18">
+                        <head>Kaufman House, 234 S. Hilgard Avenue</head>
+                        <p>This residence, designed by Austrian-born architect Richard Neutra in 1937, is another of Westwood’s Historic-Cultural landmarks.  It should be easy to see, given its distinctive International design and current virtual lack of landscaping.   Its presence on the street reflects the Janss’ strategy of letting individual property owners select their own designs for their homes, ensuring that Westwood had none of the cookie-cutter feel of many post-war subdivisions.  Equally important, it serves as an example of the work of one of Los Angeles’ most important mid-century architects.  Born in Vienna, he worked with many of Austria and Germany’s most distinguished architects before coming to the US in 1923.  After working briefly with Frank Lloyd Wright, he came to Los Angeles to collaborate with his friend Rudolf Schindler.  Westwood is home to several other Neutra buildings:  the Landfair Apartments (1937: 625-641 Landfair), the Strathmore Apartments (1937: 1105-11013½ Strathmore),  Kelton Apartments (1941, 644-648 Kelton), Ralph Waldo Emerson Middle School (1937-38, 1650 Selby), and the Elkay Apartments (1948, 638-642 Kelton).  All of those buildings are Los Angeles Historic-Cultural Monuments. </p>
+                    </div>
+                </div>
+                <div>
+                    <head>On the Bus (going WEST from Westwood Boulevard):</head>
+                    <div type="item" n="19">
+                        <head>Fraternity Row, Gayley Avenue</head>
+                        <p>As you ride the bus on Gayley along the edges of Fraternity Row, you should immediately sense the contrast with the corresponding ride on Hilgard.  This was the far and less developed side of campus in the 1920s and 1930s and there are fewer buildings from that era.  The building occupied by Beta Theta Pi Fraternity (581 Gayley) was built in 1930, but many of the other fraternities are of a later vintage.  You should also be aware how much farther you have to travel along Gayley to see the transition to single-family housing.   As mentioned above, the entire North Village area was zoned for apartments. </p>
+                    </div>
+                    
+                    <div type="item" n="20">
+                        <head>Sheats (L’Horizon) Apartments, 10919 Strathmore Drive</head>
+                        <p>If you look toward the west as the bus approaches Strathmore, you will be able to see an apartment building designed by John Lautner in 1948 and finished in 1949.  Lautner is known for his futuristic style of architecture.  This building, designed to house UCLA students, was no exception.  Another of Los Angeles’ architectural monuments, the building was designed so that each of its eight apartments was completely separated from the others.</p>
+                    </div>
+                    
+                    <div type="item" n="21">
+                        <head>The corner of Montana and Veteran</head>
+                        <p>As you cross Veteran, Gayley becomes Montana Avenue and you enter the subdivision marketed as the Westwood Hills Estates.  The 1937 photo from the corner of Sunset and Veteran shows the sales office for this wealthier subdivision.  As you ride along Montana, consider the both the housing stock to see how it compares to that on the other side of campus and the street itself.  Especially when the 405 was being built, homeowners in the area of Montana were greatly concerned about the potential increase of traffic that would be caused by a Montana exit from the freeway.<figure><graphic url=""></graphic><p>Intersection of Sunset Boulevard and Veteran Avenue, looking west along Sunset Boulevard from point 100 feet east of Veteran Avenue, Los Angeles, 1937.  The building that is visible is the Janss sales office for the Westwood Hills Estates as the company was marketing the subdivision.
+                            http://digitallibrary.usc.edu/assetserver/controller/view/AAA-EN-37-93
+                            http://digitallibrary.usc.edu/search/controller/view/acsc-m694.html?x=1346627117530
+                        </p></figure></p>
+                    </div>
+                    
+                    <div type="item" n="22">
+                        <head>The corner of Montana and Sepulveda</head>
+                        <p>As the bus turns north on Sepulveda, take a moment to consider that Sepulveda was one of the key roadways between the San Fernando Valley and West Los Angeles until the 405 was built.  It is also useful to consider the importance of this low-lying path for channeling water into the ranchos that needed the water to survive.  At this corner, you are between Westwood and Brentwood and very near the boundaries of the unincorporated Veterans Administration and Bel Air.</p>
+                    </div>
+                    
+                    
+                  </div>  
+            </div>
+        </body>
+    </text>
+</TEI>

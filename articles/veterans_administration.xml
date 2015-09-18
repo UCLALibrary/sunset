@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Veterans' Administration</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <!-- we could also use type = entry or type=chapter-->
+                
+                <head>Veterans' Administration</head>
+                <byline>Primary Authors: Janice L. Reiff</byline>
+               
+                
+                <p>For a profile of the Veterans’ Administration today, 
+                    see the Los Angeles Times’ Mapping L.A. project at 
+                    http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/veterans-administration/
+                </p>
+                
+                <div type="bus_notes">
+                    <head>Bus Notes</head>
+                    <p>Even with the jog through Westwood, you will really skirt the Veterans’ Administration property on your bus ride to the Pacific.  As is barely visible on the map above, you will only touch it very briefly as you near Brentwood Village and you won’t really be able to see the land near bus route that is used almost exclusively by Brentwood-based organizations and activities.  Be certain to visit the northern parts of the VA if you get off in Brentwood Village.  As you ride the bus from Westwood, up Sepulveda going west or down Church Street coming east, be conscious of how the presence of the VA property shaped what you are seeing.</p>
+                </div>
+                <!-- closes bus notes div -->
+                
+                <div type="sunset_notes">
+                    <head>Sunset Notes</head>
+                    <p></p>
+                </div>
+                <!-- closes sunset notes div -->
+                
+                <div type="historical_overview">
+                    <head>Historical Overview</head>
+                    <p> In March of 1887, the U.S. Congress passed an act authorizing a Pacific Coast branch of the National Home for Disabled Volunteer Soldiers.  This branch was to provide the “care and attention which could only be given in an institution especially adapted to this purpose” that was recognized first in 1865 and led to the establishment of branch homes elsewhere in the United States.  The announcement generated offers from throughout the region west of the Rocky Mountains as communities sought both the benefits the home would offer their Civil War veterans and the economic benefits that would accrue from its presence.  The LOS ANGELES BOARD OF TRADE first proposed that the city offer the federal government 500 acres of land designated the previous year as ELYSIAN PARK to bring the home to Los Angeles, arguing that the home would make the 500 acres a resort for the city’s residents and attract visitors; that at least 75% of the funds expended to build the home and to keep it supplied would go to Los Angeles businesses, and that the veterans living there would spend their pensions in the city.  Each of those arguments resonated with Angelinos who found themselves and their investments impacted by the national economic downturn of the mid-1880s and the “bust” in the Southern California real estate market that followed the “boom” of the earlier years of that decade.</p><p>
+                        
+                        Although the Mayor and City Council did not embrace the Board’s suggestion, other proposals emerged, including one from U.S. Senator John P. Jones (R-Nevada) and Arcadia Bandini de Stearns Baker, wife of Col. Robert S. Baker.  In 1872, Col. Baker, who had made a fortune during the Gold Rush, had purchased the 30,000-acre Rancho San Vicente y Santa Monica from the Sepulveda family.  Two years later, the Bakers sold a majority interest in that land to Jones who had also made his fortune during the Gold Rush.  Interested in subdividing their land, the partners founded the Santa Monica Land and Water Company and, in 1875, the town of Santa Monica.  </p><p>
+                        
+                        It was a piece of their still open land that Jones and Baker offered as the Home for Disabled Veterans.  In June of 1887, the LOS ANGELES COUNTY RAILROAD COMPANY had been formed to construct a rail line from the OSTRICH FARM RAILWAY at what is now Sunset Boulevard and Griffith Park Boulevard to Santa Monica.  That railroad line would pass through the company’s newest subdivision, the town of Sunset, that lay next to their original holdings in what had been RANCHO SAN JOSE DE BUENOS AYRES, then owned by John Wolfskill, who joined with Jones and Baker in the bid.
+                    </p>
+                    
+                    <p>When the Los Angeles Times announced on December 08, 1887, that Los Angeles had been selected, the city celebrated.  The Soldiers’ Home would attract national attention and jobs to Los Angeles.  It would also help, or many hoped, to reignite the land boom that was starting to cool.  An advertisement on page 4 of the December 9 Los Angeles Times was explicit about the possibilities:
+                        
+                       <quote> If you want to profit by the location of the Soldiers’ Home, come today and buy a lot in Jones’s Ocean Spray addition to Santa Monica.  Prices have not yet been advanced.  Russell &amp; Baum, successors to Russell, Cox &amp; Co., 132 West First street, Los Angeles.</quote>
+                        
+                        Although the real estate downturn did not lead to the immediate profits suggested in the ad, the Soldiers’ Home did spur growth in two nearby communities:  Sawtelle and Westgate.  And, over the years, the Home expanded to provide a variety of different services to veterans, both those who lived there and those who were able to use the services provided.  By 1900, when admission to the home was extended to all honorably discharged officers, soldiers, and sailors who had volunteered in any U.S. war, some 1,000 veterans lived on the property.  In 1908 and 1909, access was also granted to those who fought in the undeclared wars against “hostile” Indians and in other locations such as China and the Philippines.  A chapel, hospital and others services were built on the land as well.  
+                        <figure><graphic url=""></graphic><p>The soldiers' home. (1887, Dec 08). Los Angeles Times (1886-1922), pp. 1-1. Retrieved from http://search.proquest.com/docview/163432138?accountid=14512</p></figure></p>
+                    
+                    <p>After World War I, a younger generation of veterans created new needs and new organizations.  New housing was built, as was the Wadsworth Hospital.  The Veterans Bureau was created to provide medical and rehabilitative care for the newer veterans and, in 1930, the National Home and Veterans Bureau were combined to create the United States Veterans Administration.   By the 1960s, most of the 19th century buildings had been replaced by newer buildings and, in 1977, the VA Wadsworth Medical Center was opened on land south of Wilshire Boulevard. </p>
+                    
+                    <p>Gradually the housing function that had led to the creation of the home decreased in importance and the land, now located in one of the most sought-after areas of Los Angeles, was rented out for other uses, including to UCLA for the Jackie Robinson Stadium.</p>
+                    
+                    <p>As the problem of homeless among veterans has increased, the VA property and its uses has been a more heated debate.  Owned by the federal government but under the jurisdictional control of the Los Angeles Board of Supervisors, contests over zoning and uses have led to demonstrations at the Federal Building, in the halls of Congress, the County Administration Building, and the neighborhoods surrounding the land. <figure>
+                        <graphic url=""></graphic><p>Graphic from Ina Jaffee, “Los Angeles VA Has Made Millions On Rental Deals,” Morning Edition, National Public Radio, September 10, 2012
+                            http://www.npr.org/news/graphics/2012/09/gr-wla-948.jpg
+                            http://www.npr.org/2012/09/10/160736598/los-angeles-va-has-made-millions-on-rental-deals
+                        </p>
+                    </figure></p>
+                    
+                   
+                    
+                    
+                    
+                </div>
+                
+            
+                
+                <div type="Points_of_Interest">
+                    <div type="item" n="1">
+                        
+                        
+                        <head>  Los Angeles National Cemetery, 950 South Sepulveda Boulevard</head>
+                        
+                        <p>The most easterly section of the federal land (Sepulveda Boulevard and Veteran Avenue and Wilshire Boulevard and Levering Avenue) was dedicated as a United States National Cemetery on May 22, 1889.  The statue that stands at the corner of Wilshire and Veteran was erected in 1950 by the United Spanish War Veterans and is dedicated “To those who volunteered and extended the hand of liberty to alien peoples.” Inside the cemetery there is only one statue, a bronze statue of a Civil War veteran dedicated in 1942.  Space in the cemetery became so limited that, in 2002, all interments were suspended except for wives of veterans already buried there.  The Veterans’ Administration has recently made additional land available to build additional columbaria in which to place ashes of the deceased. <figure>
+                            <graphic url=""></graphic>
+                            <p>Front &amp; South Side of Columbarium, View to Northwest (c.1949)
+                                http://lcweb2.loc.gov/pnp/habshaer/ca/ca2800/ca2801/photos/363301pv.jpg
+                                http://www.loc.gov/pictures/item/ca2801/ part of
+                                Historic American Buildings Survey/Historic American Engineering Record/Historic American Landscapes Survey
+                                http://www.loc.gov/pictures/collection/hh/
+                            </p>
+                        </figure>
+                       
+                    </p>
+                    </div>
+                    
+                    <div type="item" n="2">
+                        
+                        
+                        <head>Federal Building, 11000 Wilshire</head>
+                        
+                        <p>The Federal Building opened in 1969 on land owned by the U.S. government to house many of the Los Angeles offices of federal agencies, including the Social Security Administration, the Internal Revenue Service, the State Department’s Passport Agency, and the Federal Bureau of Investigation.  It has also become a favorite gathering place for demonstrations with some national scope.  It is common to see protests there against the policies of other governments.  One of the most recent demonstrations held there in September of 2012 was by Romney supporters. <figure><graphic url=""></graphic><p>Equal rights drive-Supporters of the equal rights amendment rally at Federal Building on Wilshire Boulevard.  President Reagan’s son-in-law, Dennis Revell, was among several speakers who urged redoubled efforts on behalf of ERA.  Rallies were held across the U.S., June 30, 1981.
+                            Los Angeles Times Photographic Archives, UCLA Libraries
+                            http://digital2.library.ucla.edu/viewItem.do?ark=21198/zz0002rvnx
+                            http://digital2.library.ucla.edu/viewItem.do?ark=21198/zz0002np7z
+                        </p></figure>
+                            
+                        </p>
+                       
+                    </div>
+                    
+                     
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
