@@ -7,6 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Beverly Hills</title>
+                <author>Janice L. Reiff</author>
             </titleStmt>
             <publicationStmt>
                 <p>Publication Information</p>
@@ -21,8 +22,6 @@
             <div type="article">
                 <!-- we could also use type = entry or type=chapter-->
                 
-                <head>Beverly Hills</head>
-                <byline>Primary Authors: Janice L. Reiff</byline>
                 <figure>
                     <!-- line map of where xx is on the sunset blvd -->
                     <graphic url="http://bol.ucla.edu/emcaulay/1.jpg"/>
