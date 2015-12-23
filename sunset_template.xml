@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title of article</title>
+                <author>Name of author</author>
+                <author>Name of second author, if applicaple</author><!-- remove this line if no 2nd author -->
+                <respStmt>
+                    <persName>Name of another responsible party, i.e. the encoder</persName>
+                    <resp>TEI Encoder (or another role like translator)</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt><!-- just starting the convo on this part. -Dawn -->
+                <publisher>UCLA Digital Library</publisher>
+                <authority>A joint production of Jan Reiff, Dell Upton and the Sunset Boulevard Summer Knowledge Design Research Team:  Melanie Arias, Max D. Baumgarten, Erin Coleman, and Diane Ward.</authority>
+                <date when="2016">January 2016</date>
+            </publicationStmt>
+            
+            <sourceDesc><!-- Information about the source. If not previously published or taken from another source, use "Born digital" surrounded by <p> tag instead of <bibl> -->
+                <bibl></bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="article">
+        
+                <p>For a profile of ... today, See the <ref type="url" target="http://projects.latimes.com/mapping-la/neighborhoods/neighborhood/.../">Los Angeles Times’ Mapping L.A.</ref> project.</p><!-- complete the url -->
+                
+                <div type="bus_notes"><!-- If no Bus Notes, comment this section -->
+                    <head>Bus Notes</head>
+                    <p>Bus Notes text...</p>
+                </div>
+                <!-- closes bus notes div -->
+                
+                <div type="sunset_notes">
+                    <head>Sunset Notes</head>
+                    <p>Sunset notes text...</p>
+                </div>
+                <!-- closes sunset notes div -->
+                
+                <div type="historical_overview">
+                    <head>Historical Overview</head>
+                    
+                    <p>Paragraph with text only...</p>
+                    
+                    <p>Paragraph with text and an image...<ptr target="#fig1"/></p>
+                </div>
+                <!-- closes historical overview div -->
+                
+                <div type="bibliography">
+                    <p>In addition to the individual sources and databases included above, the sources below were particularly useful:</p>
+                   
+                    <listBibl>
+                        
+                        <bibl><author>Author name</author>. Title and other bibliographic info...</bibl>
+                        
+                    </listBibl>
+                </div>
+                <!-- closes bibliography div -->
+                
+                <div type="Points_of_Interest">
+                    <!-- tei-map -->
+                    
+                    <p>POI intro paragraph</p>
+                    
+                    <div type="item" n="1">
+                        <head>Name of place, additional info like address if present.</head>
+                        
+                        <p>Paragraph text...</p>
+                        
+                        <p>Paragraph with text and an image...<ptr target="#fig2"/></p>
+                        
+                        <div type="tour">
+                            <head>Title</head>
+                            <p>Text from "walking tour" box</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- closes POI div -->
+                
+            </div>
+        </body>
+        
+        <back>
+            <div type="images">
+                
+                <figure xml:id="fig1">
+                    <graphic url="link to image"/>
+                    <head>Image title</head>
+                    <p></p><!-- this is the caption for the image -->
+                    <ab type="attribution">Creator, date. Image courtesy of <ref type="url" target="link to digital asset or repository">Respository or collection</ref>.</ab>
+                    <figDesc>Description of image - alt-text for screen readers - will not display.</figDesc>
+                </figure>
+                
+                <figure xml:id="fig2">
+                    <graphic url="link to image"/>
+                    <head>Image title</head>
+                    <p>Caption here...</p>
+                    <ab type="attribution">Creator, date. Image courtesy of <ref type="url" target="link to digital asset or repository">[Respository or collection]</ref>.</ab>
+                    <figDesc>Description of image - alt-text for screen readers - will not display.</figDesc>
+                </figure>
+                
+            </div>
+            
+        </back>
+    </text>
+</TEI>
